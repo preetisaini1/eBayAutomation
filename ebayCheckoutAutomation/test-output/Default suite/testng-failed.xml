@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.ebay.tests.verifySignInTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="initializeSuite"/>
+          <include name="ValidLogin"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.ebay.tests.verifySignInTest -->
+      <class name="com.ebay.tests.verifyLoginAddtoCartCheckoutFlow">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="verifyLogin_CheckoutFlow"/>
+          <include name="initializeSuite"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.ebay.tests.verifyLoginAddtoCartCheckoutFlow -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

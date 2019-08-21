@@ -1,0 +1,1843 @@
+2019-08-06 16:09:19 ERROR Environment:39 - Error while reading excel data file: 
+java.io.FileNotFoundException: property\android.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:155)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:110)
+	at com.ebay.common.utils.Environment.loadProperty(Environment.java:34)
+	at com.ebay.common.utils.Environment.<init>(Environment.java:44)
+	at com.ebay.common.utils.Environment.getEnvironment(Environment.java:58)
+	at com.ebay.tests.BaseTest.<init>(BaseTest.java:24)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.testng.internal.ObjectFactoryImpl.newInstance(ObjectFactoryImpl.java:24)
+	at org.testng.internal.ClassHelper.createInstance1(ClassHelper.java:423)
+	at org.testng.internal.ClassHelper.createInstance(ClassHelper.java:336)
+	at org.testng.internal.ClassImpl.getDefaultInstance(ClassImpl.java:125)
+	at org.testng.internal.ClassImpl.getInstances(ClassImpl.java:190)
+	at org.testng.TestClass.getInstances(TestClass.java:95)
+	at org.testng.TestClass.initTestClassesAndInstances(TestClass.java:81)
+	at org.testng.TestClass.init(TestClass.java:73)
+	at org.testng.TestClass.<init>(TestClass.java:38)
+	at org.testng.TestRunner.initMethods(TestRunner.java:389)
+	at org.testng.TestRunner.init(TestRunner.java:271)
+	at org.testng.TestRunner.init(TestRunner.java:241)
+	at org.testng.TestRunner.<init>(TestRunner.java:192)
+	at org.testng.remote.support.RemoteTestNG6_12$1.newTestRunner(RemoteTestNG6_12.java:33)
+	at org.testng.remote.support.RemoteTestNG6_12$DelegatingTestRunnerFactory.newTestRunner(RemoteTestNG6_12.java:66)
+	at org.testng.SuiteRunner$ProxyTestRunnerFactory.newTestRunner(SuiteRunner.java:713)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:260)
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:198)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1295)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1273)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2019-08-06 16:09:19 INFO  BaseTest:34 - HPE: [com.ebay.tests.BaseTest] Initializing Suite
+2019-08-06 16:09:19 ERROR Environment:39 - Error while reading excel data file: 
+java.io.FileNotFoundException: property\android.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:155)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:110)
+	at com.ebay.common.utils.Environment.loadProperty(Environment.java:34)
+	at com.ebay.common.utils.Environment.<init>(Environment.java:44)
+	at com.ebay.common.utils.AndroidDriverUtil.<init>(AndroidDriverUtil.java:19)
+	at com.ebay.tests.BaseTest.initializeSuite(BaseTest.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2019-08-06 16:09:19 INFO  AndroidDriverUtil:44 - Android Environment is initialised with DesiredCapabilities 
+2019-08-06 16:09:19 INFO  AndroidDriverUtil:45 - [Platform_Name]: null [Platform_Version]: null [Device_name]: null [UDID]: null [App_Package]: null [App_Activity]: null [Appium_URL]: null [DATA FILE]: C:\Users\devadmin\eclipse-workspace\ebayCheckoutAutomationnull 
+2019-08-06 16:09:20 ERROR AndroidDriverUtil:56 - Error while loading Ebay Application: 
+java.net.MalformedURLException
+	at java.base/java.net.URL.<init>(URL.java:684)
+	at java.base/java.net.URL.<init>(URL.java:546)
+	at java.base/java.net.URL.<init>(URL.java:493)
+	at com.ebay.common.utils.AndroidDriverUtil.startApp(AndroidDriverUtil.java:51)
+	at com.ebay.tests.BaseTest.initializeSuite(BaseTest.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NullPointerException
+	at java.base/java.net.URL.<init>(URL.java:590)
+	... 24 more
+2019-08-06 16:09:20 INFO  BaseTest:45 - HPE: [com.ebay.tests.BaseTest] Starting Test
+2019-08-06 16:09:20 DEBUG EbayBasePage:34 - com.ebay.pages.common.EbayBasePage page initializing
+2019-08-06 16:09:20 INFO  BaseTest:51 - HPE: [verifyLogin_CheckoutFlow] Before running test method
+2019-08-06 16:09:20 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageActions page initializing
+2019-08-06 16:09:20 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageLocators page initializing
+2019-08-06 16:09:20 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:09:20 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:09:20 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:09:20 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-06 16:09:20 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:09:20 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:09:20 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:09:20 DEBUG EbayBasePage:34 - com.ebay.pages.MainMenu.MainMenuLocators page initializing
+2019-08-06 16:09:20 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:09:20 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:09:20 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:09:20 DEBUG EbayBasePage:34 - com.ebay.pages.itemDetailPage.ItemDetailsPageAssertions page initializing
+2019-08-06 16:09:20 DEBUG EbayBasePage:34 - com.ebay.pages.itemDetailPage.ItemDetailPageLocators page initializing
+2019-08-06 16:09:20 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:09:20 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:09:20 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:09:20 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:09:20 DEBUG EbayBasePage:34 - com.ebay.pages.ItemQuantityPage.ItemQuantityPageAssertions page initializing
+2019-08-06 16:09:20 DEBUG EbayBasePage:34 - com.ebay.pages.ItemQuantityPage.ItemQuantityPageLocator page initializing
+2019-08-06 16:09:20 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:09:20 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:09:20 DEBUG EbayBasePage:34 - com.ebay.pages.Checkout.CheckoutPageAssertions page initializing
+2019-08-06 16:09:20 DEBUG EbayBasePage:34 - com.ebay.pages.Checkout.CheckoutPageLocators page initializing
+2019-08-06 16:09:20 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:09:20 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:09:20 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:09:20 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageAssertions page initializing
+2019-08-06 16:09:20 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-06 16:09:20 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:09:20 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:09:20 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:09:20 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchPageLocators page initializing
+2019-08-06 16:09:20 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:09:20 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchResultPageActions page initializing
+2019-08-06 16:09:20 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchResultPageLocators page initializing
+2019-08-06 16:09:20 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:09:20 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:09:20 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:09:20 INFO  BaseTest:51 - HPE: [ValidLogin] Before running test method
+2019-08-06 16:09:20 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageActions page initializing
+2019-08-06 16:09:20 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageLocators page initializing
+2019-08-06 16:09:20 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:09:20 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:09:20 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:09:20 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-06 16:09:20 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:09:20 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:09:20 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:09:20 DEBUG EbayBasePage:34 - com.ebay.pages.MainMenu.MainMenuLocators page initializing
+2019-08-06 16:09:20 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:09:20 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:09:20 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:13:09 ERROR Environment:39 - Error while reading excel data file: 
+java.io.FileNotFoundException: main\resources\android.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:155)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:110)
+	at com.ebay.common.utils.Environment.loadProperty(Environment.java:34)
+	at com.ebay.common.utils.Environment.<init>(Environment.java:44)
+	at com.ebay.common.utils.Environment.getEnvironment(Environment.java:58)
+	at com.ebay.tests.BaseTest.<init>(BaseTest.java:24)
+	at com.ebay.tests.verifyLoginAddtoCartCheckoutFlow.<init>(verifyLoginAddtoCartCheckoutFlow.java:17)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.testng.internal.ObjectFactoryImpl.newInstance(ObjectFactoryImpl.java:24)
+	at org.testng.internal.ClassHelper.createInstance1(ClassHelper.java:423)
+	at org.testng.internal.ClassHelper.createInstance(ClassHelper.java:336)
+	at org.testng.internal.ClassImpl.getDefaultInstance(ClassImpl.java:125)
+	at org.testng.internal.ClassImpl.getInstances(ClassImpl.java:190)
+	at org.testng.TestClass.getInstances(TestClass.java:95)
+	at org.testng.TestClass.initTestClassesAndInstances(TestClass.java:81)
+	at org.testng.TestClass.init(TestClass.java:73)
+	at org.testng.TestClass.<init>(TestClass.java:38)
+	at org.testng.TestRunner.initMethods(TestRunner.java:389)
+	at org.testng.TestRunner.init(TestRunner.java:271)
+	at org.testng.TestRunner.init(TestRunner.java:241)
+	at org.testng.TestRunner.<init>(TestRunner.java:192)
+	at org.testng.remote.support.RemoteTestNG6_12$1.newTestRunner(RemoteTestNG6_12.java:33)
+	at org.testng.remote.support.RemoteTestNG6_12$DelegatingTestRunnerFactory.newTestRunner(RemoteTestNG6_12.java:66)
+	at org.testng.SuiteRunner$ProxyTestRunnerFactory.newTestRunner(SuiteRunner.java:713)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:260)
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:198)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1295)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1273)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2019-08-06 16:13:09 INFO  BaseTest:34 - HPE: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Initializing Suite
+2019-08-06 16:13:09 ERROR Environment:39 - Error while reading excel data file: 
+java.io.FileNotFoundException: main\resources\android.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:155)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:110)
+	at com.ebay.common.utils.Environment.loadProperty(Environment.java:34)
+	at com.ebay.common.utils.Environment.<init>(Environment.java:44)
+	at com.ebay.common.utils.AndroidDriverUtil.<init>(AndroidDriverUtil.java:19)
+	at com.ebay.tests.BaseTest.initializeSuite(BaseTest.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2019-08-06 16:13:09 INFO  AndroidDriverUtil:44 - Android Environment is initialised with DesiredCapabilities 
+2019-08-06 16:13:09 INFO  AndroidDriverUtil:45 - [Platform_Name]: null [Platform_Version]: null [Device_name]: null [UDID]: null [App_Package]: null [App_Activity]: null [Appium_URL]: null [DATA FILE]: C:\Users\devadmin\eclipse-workspace\ebayCheckoutAutomationnull 
+2019-08-06 16:13:09 ERROR AndroidDriverUtil:56 - Error while loading Ebay Application: 
+java.net.MalformedURLException
+	at java.base/java.net.URL.<init>(URL.java:684)
+	at java.base/java.net.URL.<init>(URL.java:546)
+	at java.base/java.net.URL.<init>(URL.java:493)
+	at com.ebay.common.utils.AndroidDriverUtil.startApp(AndroidDriverUtil.java:51)
+	at com.ebay.tests.BaseTest.initializeSuite(BaseTest.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NullPointerException
+	at java.base/java.net.URL.<init>(URL.java:590)
+	... 24 more
+2019-08-06 16:13:09 INFO  BaseTest:45 - HPE: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Starting Test
+2019-08-06 16:13:09 DEBUG EbayBasePage:34 - com.ebay.pages.common.EbayBasePage page initializing
+2019-08-06 16:13:09 INFO  BaseTest:51 - HPE: [verifyLogin_CheckoutFlow] Before running test method
+2019-08-06 16:13:09 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageActions page initializing
+2019-08-06 16:13:09 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageLocators page initializing
+2019-08-06 16:13:09 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:13:09 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:13:09 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:13:09 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-06 16:13:09 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:13:09 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:13:09 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:13:09 DEBUG EbayBasePage:34 - com.ebay.pages.MainMenu.MainMenuLocators page initializing
+2019-08-06 16:13:09 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:13:09 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:13:09 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:13:09 DEBUG EbayBasePage:34 - com.ebay.pages.itemDetailPage.ItemDetailsPageAssertions page initializing
+2019-08-06 16:13:09 DEBUG EbayBasePage:34 - com.ebay.pages.itemDetailPage.ItemDetailPageLocators page initializing
+2019-08-06 16:13:09 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:13:09 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:13:09 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:13:09 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:13:09 DEBUG EbayBasePage:34 - com.ebay.pages.ItemQuantityPage.ItemQuantityPageAssertions page initializing
+2019-08-06 16:13:09 DEBUG EbayBasePage:34 - com.ebay.pages.ItemQuantityPage.ItemQuantityPageLocator page initializing
+2019-08-06 16:13:09 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:13:09 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:13:09 DEBUG EbayBasePage:34 - com.ebay.pages.Checkout.CheckoutPageAssertions page initializing
+2019-08-06 16:13:09 DEBUG EbayBasePage:34 - com.ebay.pages.Checkout.CheckoutPageLocators page initializing
+2019-08-06 16:13:09 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:13:09 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:13:09 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:13:09 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageAssertions page initializing
+2019-08-06 16:13:09 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-06 16:13:09 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:13:09 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:13:09 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:13:09 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchPageLocators page initializing
+2019-08-06 16:13:09 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:13:09 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchResultPageActions page initializing
+2019-08-06 16:13:09 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchResultPageLocators page initializing
+2019-08-06 16:13:09 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:13:09 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:13:09 ERROR Environment:157 -  No Mapping found for key %s. Check config.properties 
+2019-08-06 16:15:01 INFO  Environment:36 -  Reading android.property File: 
+2019-08-06 16:15:01 INFO  BaseTest:34 - HPE: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Initializing Suite
+2019-08-06 16:15:01 INFO  Environment:36 -  Reading android.property File: 
+2019-08-06 16:15:01 INFO  AndroidDriverUtil:44 - Android Environment is initialised with DesiredCapabilities 
+2019-08-06 16:15:01 INFO  AndroidDriverUtil:45 - [Platform_Name]: null [Platform_Version]: 9 [Device_name]: My MI [UDID]: 4aa88f4 [App_Package]: com.ebay.mobile [App_Activity]: com.ebay.mobile.activities.MainActivity [Appium_URL]: http://0.0.0.0:4723/wd/hub [DATA FILE]: C:\Users\devadmin\eclipse-workspace\ebayCheckoutAutomationnull 
+2019-08-06 16:15:09 INFO  AndroidDriverUtil:52 - EBAY Application Started 
+2019-08-06 16:15:09 INFO  BaseTest:45 - HPE: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Starting Test
+2019-08-06 16:15:09 DEBUG EbayBasePage:34 - com.ebay.pages.common.EbayBasePage page initializing
+2019-08-06 16:15:09 INFO  BaseTest:51 - HPE: [verifyLogin_CheckoutFlow] Before running test method
+2019-08-06 16:15:09 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageActions page initializing
+2019-08-06 16:15:09 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageLocators page initializing
+2019-08-06 16:15:09 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-06 16:15:09 DEBUG EbayBasePage:34 - com.ebay.pages.MainMenu.MainMenuLocators page initializing
+2019-08-06 16:15:09 DEBUG EbayBasePage:34 - com.ebay.pages.itemDetailPage.ItemDetailsPageAssertions page initializing
+2019-08-06 16:15:09 DEBUG EbayBasePage:34 - com.ebay.pages.itemDetailPage.ItemDetailPageLocators page initializing
+2019-08-06 16:15:09 DEBUG EbayBasePage:34 - com.ebay.pages.ItemQuantityPage.ItemQuantityPageAssertions page initializing
+2019-08-06 16:15:09 DEBUG EbayBasePage:34 - com.ebay.pages.ItemQuantityPage.ItemQuantityPageLocator page initializing
+2019-08-06 16:15:09 DEBUG EbayBasePage:34 - com.ebay.pages.Checkout.CheckoutPageAssertions page initializing
+2019-08-06 16:15:09 DEBUG EbayBasePage:34 - com.ebay.pages.Checkout.CheckoutPageLocators page initializing
+2019-08-06 16:15:09 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageAssertions page initializing
+2019-08-06 16:15:09 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-06 16:15:09 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchPageLocators page initializing
+2019-08-06 16:15:09 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchResultPageActions page initializing
+2019-08-06 16:15:09 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchResultPageLocators page initializing
+2019-08-06 16:15:10 INFO  LandingPageLocator:44 - landing Page->Clicked on main menu
+2019-08-06 16:15:11 INFO  MainMenuLocators:28 - Main Menu ->Clicked on Sign IN
+2019-08-06 16:15:17 INFO  SignInPageLocators:35 - SignINPage-> email entered p.reiin.saini@gmail.com
+2019-08-06 16:15:23 INFO  SignInPageLocators:40 - SignINPage-> password entered By.id: com.ebay.mobile:id/et_temp
+2019-08-06 16:15:23 INFO  SignInPageLocators:45 - SignINPage-> Clicked on SignIn Button 
+2019-08-06 16:15:23 INFO  SignInPageActions:47 - Sign In button Clicked
+2019-08-06 16:15:23 INFO  EbayBasePage:45 - wait initiated
+2019-08-06 16:15:27 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-06 16:15:27 INFO  EbayBasePage:49 - true
+2019-08-06 16:15:28 INFO  LandingPageLocator:44 - landing Page->Clicked on main menu
+2019-08-06 16:15:29 INFO  MainMenuLocators:33 - Main Menu -> Signed In USer ---- presa4295
+2019-08-06 16:15:29 INFO  MainMenuLocators:39 - Main Menu -> Home -> Clicked on Home
+2019-08-06 16:15:29 INFO  SignInPageActions:61 - User is Directed to Home
+2019-08-06 16:15:31 INFO  LandingPageLocator:63 - Search Text Box Clicked
+2019-08-06 16:15:36 INFO  ItemDetailPageLocators:29 - Search Page-> Entered Search text is Chocolate
+2019-08-06 16:15:37 INFO  EbayBasePage:45 - wait initiated
+2019-08-06 16:15:39 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-06 16:15:39 INFO  EbayBasePage:49 - true
+2019-08-06 16:15:39 INFO  EbayBasePage:45 - wait initiated
+2019-08-06 16:15:40 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-06 16:15:40 INFO  EbayBasePage:49 - true
+2019-08-06 16:15:40 INFO  SearchResultPageLocators:47 -  Search page is Loaded with Result count5,290 Results
+2019-08-06 16:15:40 INFO  SearchResultPageLocators:33 - Search Result Page is loaded
+2019-08-06 16:15:40 INFO  SearchResultPageLocators:59 - Second product from the list is Selected 
+2019-08-06 16:15:40 INFO  EbayBasePage:45 - wait initiated
+2019-08-06 16:15:45 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-06 16:15:45 INFO  EbayBasePage:49 - true
+2019-08-06 16:15:45 INFO  ItemDetailPageLocators:49 - Buy Now Button is present true
+2019-08-06 16:15:45 INFO  EbayBasePage:45 - wait initiated
+2019-08-06 16:15:45 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-06 16:15:46 INFO  EbayBasePage:49 - true
+2019-08-06 16:15:46 INFO  ItemDetailPageLocators:49 - Buy Now Button is present true
+2019-08-06 16:15:46 INFO  ItemDetailsPageAssertions:28 - ItemDetailsPage is loaded Successfully
+2019-08-06 16:15:46 INFO  ItemDetailPageLocators:32 - ItemName is set to  M&M's Peanut Chocolate Party Size Bucket 575g Lollies
+2019-08-06 16:15:46 INFO  ItemDetailPageLocators:39 - ItemPrice is set to  AU $10.38
+2019-08-06 16:15:46 INFO  ItemDetailsPageAssertions:42 - Selected Product Details are [Item Name]: M&M's Peanut Chocolate Party Size Bucket 575g Lollies [Item Price]: AU $10.38 
+2019-08-06 16:15:46 INFO  ItemDetailsPageAssertions:43 - Selected Product Name are M&M's Peanut Chocolate Party Size Bucket 575g Lollies
+2019-08-06 16:15:46 INFO  ItemDetailsPageAssertions:44 - Selected Product Price are AU $10.38
+2019-08-06 16:15:46 INFO  ItemDetailPageLocators:56 - Clicked on Buy Now Button true
+2019-08-06 16:15:46 INFO  EbayBasePage:45 - wait initiated
+2019-08-06 16:15:47 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-06 16:15:47 INFO  EbayBasePage:49 - true
+2019-08-06 16:15:47 INFO  ItemQuantityPageLocator:26 - item Enter Quantity page is Loaded and Page Titile isEnter quantity
+2019-08-06 16:15:47 INFO  ItemQuantityPageAssertions:25 - Enter Quantity page is loaded successgully 
+2019-08-06 16:15:48 INFO  ItemQuantityPageLocator:32 - Clicked on Review Button 
+2019-08-06 16:15:48 INFO  EbayBasePage:45 - wait initiated
+2019-08-06 16:15:49 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-06 16:15:49 INFO  EbayBasePage:49 - true
+2019-08-06 16:15:49 INFO  CheckoutPageLocators:44 - Checkout Page is Loaded true
+2019-08-06 16:15:49 INFO  EbayBasePage:45 - wait initiated
+2019-08-06 16:15:49 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-06 16:15:49 INFO  EbayBasePage:49 - true
+2019-08-06 16:15:49 INFO  CheckoutPageLocators:44 - Checkout Page is Loaded true
+2019-08-06 16:15:49 INFO  CheckoutPageAssertions:26 - Checkout page is Loaded Successfully
+2019-08-06 16:15:53 INFO  CheckoutPageLocators:31 - ItemName is set to  M&M's Peanut Chocolate Party Size Bucket 575g Lollies
+2019-08-06 16:15:53 INFO  CheckoutPageLocators:38 - ItemPrice is set to  AU $10.38
+2019-08-06 16:15:53 INFO  CheckoutPageAssertions:35 - Selected Product Details are [Item Name]: M&M's Peanut Chocolate Party Size Bucket 575g Lollies [Item Price]: AU $10.38 
+2019-08-06 16:15:53 INFO  CheckoutPageAssertions:36 - Selected Product Name are M&M's Peanut Chocolate Party Size Bucket 575g Lollies
+2019-08-06 16:15:53 INFO  CheckoutPageAssertions:37 - Selected Product Price are AU $10.38
+2019-08-06 16:15:53 INFO  verifyLoginAddtoCartCheckoutFlow:53 - Product details in Checkout Page is same as available in Item-Detail-Page 
+2019-08-06 17:43:44 INFO  Environment:36 -  Reading android.property File: 
+2019-08-06 17:43:44 INFO  BaseTest:45 - HPE: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Initializing Suite
+2019-08-06 17:43:44 INFO  Environment:36 -  Reading android.property File: 
+2019-08-06 17:43:44 INFO  AndroidDriverUtil:44 - Android Environment is initialised with DesiredCapabilities 
+2019-08-06 17:43:44 INFO  AndroidDriverUtil:45 - [Platform_Name]: null [Platform_Version]: 9 [Device_name]: My MI [UDID]: 4aa88f4 [App_Package]: com.ebay.mobile [App_Activity]: com.ebay.mobile.activities.MainActivity [Appium_URL]: http://0.0.0.0:4723/wd/hub [DATA FILE]: C:\Users\devadmin\eclipse-workspace\ebayCheckoutAutomationnull 
+2019-08-06 17:43:54 INFO  AndroidDriverUtil:52 - EBAY Application Started 
+2019-08-06 17:43:54 INFO  BaseTest:56 - HPE: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Starting Test
+2019-08-06 17:43:54 DEBUG EbayBasePage:34 - com.ebay.pages.common.EbayBasePage page initializing
+2019-08-06 17:48:52 INFO  Environment:36 -  Reading android.property File: 
+2019-08-06 17:48:53 INFO  BaseTest:45 - HPE: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Initializing Suite
+2019-08-06 17:48:53 INFO  Environment:36 -  Reading android.property File: 
+2019-08-06 17:48:53 INFO  AndroidDriverUtil:44 - Android Environment is initialised with DesiredCapabilities 
+2019-08-06 17:48:53 INFO  AndroidDriverUtil:45 - [Platform_Name]: null [Platform_Version]: 9 [Device_name]: My MI [UDID]: 4aa88f4 [App_Package]: com.ebay.mobile [App_Activity]: com.ebay.mobile.activities.MainActivity [Appium_URL]: http://0.0.0.0:4723/wd/hub [DATA FILE]: C:\Users\devadmin\eclipse-workspace\ebayCheckoutAutomationnull 
+2019-08-06 17:49:00 INFO  AndroidDriverUtil:52 - EBAY Application Started 
+2019-08-06 17:49:00 INFO  BaseTest:56 - HPE: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Starting Test
+2019-08-06 17:49:00 DEBUG EbayBasePage:34 - com.ebay.pages.common.EbayBasePage page initializing
+2019-08-06 17:50:30 INFO  Environment:36 -  Reading android.property File: 
+2019-08-06 17:50:30 INFO  BaseTest:45 - HPE: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Initializing Suite
+2019-08-06 17:50:30 INFO  Environment:36 -  Reading android.property File: 
+2019-08-06 17:50:30 INFO  AndroidDriverUtil:44 - Android Environment is initialised with DesiredCapabilities 
+2019-08-06 17:50:30 INFO  AndroidDriverUtil:45 - [Platform_Name]: null [Platform_Version]: 9 [Device_name]: My MI [UDID]: 4aa88f4 [App_Package]: com.ebay.mobile [App_Activity]: com.ebay.mobile.activities.MainActivity [Appium_URL]: http://0.0.0.0:4723/wd/hub [DATA FILE]: C:\Users\devadmin\eclipse-workspace\ebayCheckoutAutomationnull 
+2019-08-06 17:50:36 INFO  AndroidDriverUtil:52 - EBAY Application Started 
+2019-08-06 17:50:36 INFO  BaseTest:56 - HPE: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Starting Test
+2019-08-06 17:50:36 DEBUG EbayBasePage:34 - com.ebay.pages.common.EbayBasePage page initializing
+2019-08-06 17:52:29 INFO  Environment:36 -  Reading android.property File: 
+2019-08-06 17:52:29 INFO  BaseTest:45 - HPE: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Initializing Suite
+2019-08-06 17:52:29 INFO  Environment:36 -  Reading android.property File: 
+2019-08-06 17:52:29 INFO  AndroidDriverUtil:44 - Android Environment is initialised with DesiredCapabilities 
+2019-08-06 17:52:29 INFO  AndroidDriverUtil:45 - [Platform_Name]: null [Platform_Version]: 9 [Device_name]: My MI [UDID]: 4aa88f4 [App_Package]: com.ebay.mobile [App_Activity]: com.ebay.mobile.activities.MainActivity [Appium_URL]: http://0.0.0.0:4723/wd/hub [DATA FILE]: C:\Users\devadmin\eclipse-workspace\ebayCheckoutAutomationnull 
+2019-08-06 17:52:35 INFO  AndroidDriverUtil:52 - EBAY Application Started 
+2019-08-06 17:52:35 INFO  BaseTest:56 - HPE: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Starting Test
+2019-08-06 17:52:35 DEBUG EbayBasePage:34 - com.ebay.pages.common.EbayBasePage page initializing
+2019-08-06 17:52:36 INFO  BaseTest:84 - Loading TestDat File
+2019-08-06 17:52:36 INFO  BaseTest:100 - dataProvider is initialised
+2019-08-06 18:06:28 INFO  Environment:36 -  Reading android.property File: 
+2019-08-06 18:06:28 INFO  BaseTest:45 - HPE: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Initializing Suite
+2019-08-06 18:06:28 INFO  Environment:36 -  Reading android.property File: 
+2019-08-06 18:06:28 INFO  AndroidDriverUtil:44 - Android Environment is initialised with DesiredCapabilities 
+2019-08-06 18:06:28 INFO  AndroidDriverUtil:45 - [Platform_Name]: null [Platform_Version]: 9 [Device_name]: My MI [UDID]: 4aa88f4 [App_Package]: com.ebay.mobile [App_Activity]: com.ebay.mobile.activities.MainActivity [Appium_URL]: http://0.0.0.0:4723/wd/hub [DATA FILE]: C:\Users\devadmin\eclipse-workspace\ebayCheckoutAutomationnull 
+2019-08-06 18:06:41 INFO  AndroidDriverUtil:52 - EBAY Application Started 
+2019-08-06 18:06:41 INFO  BaseTest:56 - HPE: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Starting Test
+2019-08-06 18:06:41 DEBUG EbayBasePage:34 - com.ebay.pages.common.EbayBasePage page initializing
+2019-08-06 18:06:42 INFO  BaseTest:84 - Loading TestDat File
+2019-08-06 18:06:42 INFO  BaseTest:100 - dataProvider is initialised[[Ljava.lang.Object;@5b5caf08
+2019-08-06 18:12:55 INFO  Environment:36 -  Reading android.property File: 
+2019-08-06 18:12:55 INFO  BaseTest:45 - HPE: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Initializing Suite
+2019-08-06 18:12:55 INFO  Environment:36 -  Reading android.property File: 
+2019-08-06 18:12:55 INFO  AndroidDriverUtil:44 - Android Environment is initialised with DesiredCapabilities 
+2019-08-06 18:12:55 INFO  AndroidDriverUtil:45 - [Platform_Name]: null [Platform_Version]: 9 [Device_name]: My MI [UDID]: 4aa88f4 [App_Package]: com.ebay.mobile [App_Activity]: com.ebay.mobile.activities.MainActivity [Appium_URL]: http://0.0.0.0:4723/wd/hub [DATA FILE]: C:\Users\devadmin\eclipse-workspace\ebayCheckoutAutomationnull 
+2019-08-06 18:13:02 INFO  AndroidDriverUtil:52 - EBAY Application Started 
+2019-08-06 18:13:02 INFO  BaseTest:56 - HPE: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Starting Test
+2019-08-06 18:13:02 DEBUG EbayBasePage:34 - com.ebay.pages.common.EbayBasePage page initializing
+2019-08-06 18:13:02 INFO  BaseTest:62 - HPE: [verifyLogin_CheckoutFlow] Before running test method
+2019-08-06 18:13:02 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageActions page initializing
+2019-08-06 18:13:02 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageLocators page initializing
+2019-08-06 18:13:02 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-06 18:13:02 DEBUG EbayBasePage:34 - com.ebay.pages.MainMenu.MainMenuLocators page initializing
+2019-08-06 18:13:02 DEBUG EbayBasePage:34 - com.ebay.pages.itemDetailPage.ItemDetailsPageAssertions page initializing
+2019-08-06 18:13:02 DEBUG EbayBasePage:34 - com.ebay.pages.itemDetailPage.ItemDetailPageLocators page initializing
+2019-08-06 18:13:02 DEBUG EbayBasePage:34 - com.ebay.pages.ItemQuantityPage.ItemQuantityPageAssertions page initializing
+2019-08-06 18:13:02 DEBUG EbayBasePage:34 - com.ebay.pages.ItemQuantityPage.ItemQuantityPageLocator page initializing
+2019-08-06 18:13:02 DEBUG EbayBasePage:34 - com.ebay.pages.Checkout.CheckoutPageAssertions page initializing
+2019-08-06 18:13:02 DEBUG EbayBasePage:34 - com.ebay.pages.Checkout.CheckoutPageLocators page initializing
+2019-08-06 18:13:02 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageAssertions page initializing
+2019-08-06 18:13:02 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-06 18:13:02 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchPageLocators page initializing
+2019-08-06 18:13:02 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchResultPageActions page initializing
+2019-08-06 18:13:02 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchResultPageLocators page initializing
+2019-08-06 18:13:03 INFO  LandingPageLocator:44 - landing Page->Clicked on main menu
+2019-08-06 18:13:04 INFO  MainMenuLocators:28 - Main Menu ->Clicked on Sign IN
+2019-08-06 18:13:11 INFO  SignInPageLocators:35 - SignINPage-> email entered p.reiin.saini@gmail.com
+2019-08-06 18:13:17 INFO  SignInPageLocators:40 - SignINPage-> password entered By.id: com.ebay.mobile:id/et_temp
+2019-08-06 18:13:17 INFO  SignInPageLocators:45 - SignINPage-> Clicked on SignIn Button 
+2019-08-06 18:13:17 INFO  SignInPageActions:47 - Sign In button Clicked
+2019-08-06 18:13:17 INFO  EbayBasePage:45 - wait initiated
+2019-08-06 18:13:24 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-06 18:13:25 INFO  EbayBasePage:49 - true
+2019-08-06 18:13:25 INFO  LandingPageLocator:44 - landing Page->Clicked on main menu
+2019-08-06 18:13:26 INFO  MainMenuLocators:33 - Main Menu -> Signed In USer ---- presa4295
+2019-08-06 18:13:27 INFO  MainMenuLocators:39 - Main Menu -> Home -> Clicked on Home
+2019-08-06 18:13:27 INFO  SignInPageActions:61 - User is Directed to Home
+2019-08-06 18:13:28 INFO  LandingPageLocator:63 - Search Text Box Clicked
+2019-08-06 18:13:34 INFO  ItemDetailPageLocators:29 - Search Page-> Entered Search text is Chocolate
+2019-08-06 18:13:35 INFO  EbayBasePage:45 - wait initiated
+2019-08-06 18:13:36 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-06 18:13:37 INFO  EbayBasePage:49 - true
+2019-08-06 18:13:37 INFO  EbayBasePage:45 - wait initiated
+2019-08-06 18:13:37 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-06 18:13:37 INFO  EbayBasePage:49 - true
+2019-08-06 18:13:37 INFO  SearchResultPageLocators:47 -  Search page is Loaded with Result count5,289 Results
+2019-08-06 18:13:37 INFO  SearchResultPageLocators:33 - Search Result Page is loaded
+2019-08-06 18:13:38 INFO  SearchResultPageLocators:59 - Second product from the list is Selected 
+2019-08-06 18:13:38 INFO  EbayBasePage:45 - wait initiated
+2019-08-06 18:13:43 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-06 18:13:43 INFO  EbayBasePage:49 - true
+2019-08-06 18:13:43 INFO  ItemDetailPageLocators:49 - Buy Now Button is present true
+2019-08-06 18:13:43 INFO  EbayBasePage:45 - wait initiated
+2019-08-06 18:13:43 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-06 18:13:43 INFO  EbayBasePage:49 - true
+2019-08-06 18:13:43 INFO  ItemDetailPageLocators:49 - Buy Now Button is present true
+2019-08-06 18:13:43 INFO  ItemDetailsPageAssertions:28 - ItemDetailsPage is loaded Successfully
+2019-08-06 18:13:43 INFO  ItemDetailPageLocators:32 - ItemName is set to  M&M's Peanut Chocolate Party Size Bucket 575g Lollies
+2019-08-06 18:13:43 INFO  ItemDetailPageLocators:39 - ItemPrice is set to  AU $10.38
+2019-08-06 18:13:43 INFO  ItemDetailsPageAssertions:42 - Selected Product Details are [Item Name]: M&M's Peanut Chocolate Party Size Bucket 575g Lollies [Item Price]: AU $10.38 
+2019-08-06 18:13:43 INFO  ItemDetailsPageAssertions:43 - Selected Product Name are M&M's Peanut Chocolate Party Size Bucket 575g Lollies
+2019-08-06 18:13:43 INFO  ItemDetailsPageAssertions:44 - Selected Product Price are AU $10.38
+2019-08-06 18:13:44 INFO  ItemDetailPageLocators:56 - Clicked on Buy Now Button true
+2019-08-06 18:13:44 INFO  EbayBasePage:45 - wait initiated
+2019-08-06 18:13:45 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-06 18:13:45 INFO  EbayBasePage:49 - true
+2019-08-06 18:13:45 INFO  ItemQuantityPageLocator:26 - item Enter Quantity page is Loaded and Page Titile isEnter quantity
+2019-08-06 18:13:45 INFO  ItemQuantityPageAssertions:25 - Enter Quantity page is loaded successgully 
+2019-08-06 18:13:45 INFO  ItemQuantityPageLocator:32 - Clicked on Review Button 
+2019-08-06 18:13:45 INFO  EbayBasePage:45 - wait initiated
+2019-08-06 18:13:46 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-06 18:13:46 INFO  EbayBasePage:49 - true
+2019-08-06 18:13:46 INFO  CheckoutPageLocators:44 - Checkout Page is Loaded true
+2019-08-06 18:13:46 INFO  EbayBasePage:45 - wait initiated
+2019-08-06 18:13:46 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-06 18:13:46 INFO  EbayBasePage:49 - true
+2019-08-06 18:13:46 INFO  CheckoutPageLocators:44 - Checkout Page is Loaded true
+2019-08-06 18:13:46 INFO  CheckoutPageAssertions:26 - Checkout page is Loaded Successfully
+2019-08-06 18:13:54 INFO  CheckoutPageLocators:31 - ItemName is set to  M&M's Peanut Chocolate Party Size Bucket 575g Lollies
+2019-08-06 18:13:54 INFO  CheckoutPageLocators:38 - ItemPrice is set to  AU $10.38
+2019-08-06 18:13:54 INFO  CheckoutPageAssertions:35 - Selected Product Details are [Item Name]: M&M's Peanut Chocolate Party Size Bucket 575g Lollies [Item Price]: AU $10.38 
+2019-08-06 18:13:54 INFO  CheckoutPageAssertions:36 - Selected Product Name are M&M's Peanut Chocolate Party Size Bucket 575g Lollies
+2019-08-06 18:13:54 INFO  CheckoutPageAssertions:37 - Selected Product Price are AU $10.38
+2019-08-06 18:13:54 INFO  verifyLoginAddtoCartCheckoutFlow:52 - Product details in Checkout Page is same as available in Item-Detail-Page 
+2019-08-08 01:00:11 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-08 01:04:07 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-08 01:10:43 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-08 01:12:58 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-08 01:15:36 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-08 01:15:36 INFO  ExcelReader:35 -  Reading File: src\test\resources\TestData.xlsx
+2019-08-08 01:15:37 INFO  ExcelReader:39 - Reading dataFile completed 
+2019-08-08 01:15:37 INFO  BaseTest:36 - EBAY: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Initializing Suite
+2019-08-08 01:15:37 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-08 01:15:37 INFO  AndroidDriverUtil:44 - Android Environment is initialised with DesiredCapabilities 
+2019-08-08 01:15:37 INFO  AndroidDriverUtil:45 - [Platform_Name]: null [Platform_Version]: 9 [Device_name]: My MI [UDID]: 4aa88f4 [App_Package]: com.ebay.mobile [App_Activity]: com.ebay.mobile.activities.MainActivity [Appium_URL]: http://0.0.0.0:4723/wd/hub [DATA FILE]: TestData.xlsx 
+2019-08-08 01:15:50 INFO  AndroidDriverUtil:52 - EBAY Application Started 
+2019-08-08 01:15:50 INFO  BaseTest:47 - EBAY: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Starting Test
+2019-08-08 01:15:50 DEBUG EbayBasePage:34 - com.ebay.pages.common.EbayBasePage page initializing
+2019-08-08 01:15:50 INFO  ExcelReader:35 -  Reading File: src\test\resources\TestData.xlsx
+2019-08-08 01:15:51 INFO  ExcelReader:39 - Reading dataFile completed 
+2019-08-08 01:15:51 INFO  ExcelReader:60 - [Email]: p.reiin.saini@gmail.com [Password] test@2019 [UserId] presa4295 [SearchText] chocolate 
+2019-08-08 01:15:51 INFO  BaseTest:59 - EBAY: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Completing Test
+2019-08-08 01:15:52 INFO  BaseTest:65 - EBAY: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Ending Test
+2019-08-08 01:24:30 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-08 01:24:30 INFO  ExcelReader:35 -  Reading File: src\test\resources\TestData.xlsx
+2019-08-08 01:24:30 INFO  ExcelReader:39 - Reading dataFile completed 
+2019-08-08 01:24:30 INFO  BaseTest:36 - EBAY: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Initializing Suite
+2019-08-08 01:24:30 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-08 01:24:30 INFO  AndroidDriverUtil:44 - Android Environment is initialised with DesiredCapabilities 
+2019-08-08 01:24:30 INFO  AndroidDriverUtil:45 - [Platform_Name]: null [Platform_Version]: 9 [Device_name]: My MI [UDID]: 4aa88f4 [App_Package]: com.ebay.mobile [App_Activity]: com.ebay.mobile.activities.MainActivity [Appium_URL]: http://0.0.0.0:4723/wd/hub [DATA FILE]: TestData.xlsx 
+2019-08-08 01:24:38 INFO  AndroidDriverUtil:52 - EBAY Application Started 
+2019-08-08 01:24:38 INFO  BaseTest:47 - EBAY: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Starting Test
+2019-08-08 01:24:38 DEBUG EbayBasePage:34 - com.ebay.pages.common.EbayBasePage page initializing
+2019-08-08 01:24:38 INFO  ExcelReader:60 - [Email]: p.reiin.saini@gmail.com [Password] test@2019 [UserId] presa4295 [SearchText] chocolate 
+2019-08-08 01:24:38 INFO  BaseTest:59 - EBAY: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Completing Test
+2019-08-08 01:24:39 INFO  BaseTest:65 - EBAY: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Ending Test
+2019-08-08 01:28:04 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-08 01:28:04 INFO  ExcelReader:35 -  Reading File: src\test\resources\TestData.xlsx
+2019-08-08 01:28:04 INFO  ExcelReader:39 - Reading dataFile completed 
+2019-08-08 01:28:04 INFO  BaseTest:36 - EBAY: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Initializing Suite
+2019-08-08 01:28:04 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-08 01:28:04 INFO  AndroidDriverUtil:44 - Android Environment is initialised with DesiredCapabilities 
+2019-08-08 01:28:04 INFO  AndroidDriverUtil:45 - [Platform_Name]: null [Platform_Version]: 9 [Device_name]: My MI [UDID]: 4aa88f4 [App_Package]: com.ebay.mobile [App_Activity]: com.ebay.mobile.activities.MainActivity [Appium_URL]: http://0.0.0.0:4723/wd/hub [DATA FILE]: TestData.xlsx 
+2019-08-08 01:28:10 INFO  AndroidDriverUtil:52 - EBAY Application Started 
+2019-08-08 01:28:10 INFO  BaseTest:47 - EBAY: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Starting Test
+2019-08-08 01:28:10 DEBUG EbayBasePage:34 - com.ebay.pages.common.EbayBasePage page initializing
+2019-08-08 01:28:10 INFO  ExcelReader:60 - [Email]: p.reiin.saini@gmail.com [Password] test@2019 [UserId] presa4295 [SearchText] chocolate 
+2019-08-08 01:28:10 INFO  ExcelReader:64 - [[Ljava.lang.Object;@6f89f665]
+2019-08-08 01:28:11 INFO  BaseTest:59 - EBAY: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Completing Test
+2019-08-08 01:28:12 INFO  BaseTest:65 - EBAY: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Ending Test
+2019-08-08 01:39:46 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-08 01:39:46 INFO  ExcelReader:35 -  Reading File: src\test\resources\TestData.xlsx
+2019-08-08 01:39:47 INFO  ExcelReader:39 - Reading dataFile completed 
+2019-08-08 01:39:47 INFO  BaseTest:36 - EBAY: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Initializing Suite
+2019-08-08 01:39:47 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-08 01:39:47 INFO  AndroidDriverUtil:44 - Android Environment is initialised with DesiredCapabilities 
+2019-08-08 01:39:47 INFO  AndroidDriverUtil:45 - [Platform_Name]: null [Platform_Version]: 9 [Device_name]: My MI [UDID]: 4aa88f4 [App_Package]: com.ebay.mobile [App_Activity]: com.ebay.mobile.activities.MainActivity [Appium_URL]: http://0.0.0.0:4723/wd/hub [DATA FILE]: TestData.xlsx 
+2019-08-08 01:39:54 INFO  AndroidDriverUtil:52 - EBAY Application Started 
+2019-08-08 01:39:54 INFO  BaseTest:47 - EBAY: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Starting Test
+2019-08-08 01:39:54 DEBUG EbayBasePage:34 - com.ebay.pages.common.EbayBasePage page initializing
+2019-08-08 01:39:54 INFO  BaseTest:59 - EBAY: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Completing Test
+2019-08-08 01:39:55 INFO  BaseTest:65 - EBAY: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Ending Test
+2019-08-08 01:41:31 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-08 01:41:31 INFO  ExcelReader:35 -  Reading File: src\test\resources\TestData.xlsx
+2019-08-08 01:41:32 INFO  ExcelReader:39 - Reading dataFile completed 
+2019-08-08 01:41:32 INFO  BaseTest:36 - EBAY: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Initializing Suite
+2019-08-08 01:41:32 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-08 01:41:32 INFO  AndroidDriverUtil:44 - Android Environment is initialised with DesiredCapabilities 
+2019-08-08 01:41:32 INFO  AndroidDriverUtil:45 - [Platform_Name]: null [Platform_Version]: 9 [Device_name]: My MI [UDID]: 4aa88f4 [App_Package]: com.ebay.mobile [App_Activity]: com.ebay.mobile.activities.MainActivity [Appium_URL]: http://0.0.0.0:4723/wd/hub [DATA FILE]: TestData.xlsx 
+2019-08-08 01:41:38 INFO  AndroidDriverUtil:52 - EBAY Application Started 
+2019-08-08 01:41:38 INFO  BaseTest:47 - EBAY: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Starting Test
+2019-08-08 01:41:38 DEBUG EbayBasePage:34 - com.ebay.pages.common.EbayBasePage page initializing
+2019-08-08 01:41:38 INFO  ExcelReader:50 - 2
+2019-08-08 01:41:38 INFO  ExcelReader:52 - 0
+2019-08-08 01:41:38 INFO  BaseTest:59 - EBAY: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Completing Test
+2019-08-08 01:41:39 INFO  BaseTest:65 - EBAY: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Ending Test
+2019-08-08 01:43:56 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-08 01:43:57 INFO  ExcelReader:35 -  Reading File: src\test\resources\TestData.xlsx
+2019-08-08 01:43:57 INFO  ExcelReader:39 - Reading dataFile completed 
+2019-08-08 01:43:57 INFO  BaseTest:36 - EBAY: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Initializing Suite
+2019-08-08 01:43:57 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-08 01:43:57 INFO  AndroidDriverUtil:44 - Android Environment is initialised with DesiredCapabilities 
+2019-08-08 01:43:57 INFO  AndroidDriverUtil:45 - [Platform_Name]: null [Platform_Version]: 9 [Device_name]: My MI [UDID]: 4aa88f4 [App_Package]: com.ebay.mobile [App_Activity]: com.ebay.mobile.activities.MainActivity [Appium_URL]: http://0.0.0.0:4723/wd/hub [DATA FILE]: TestData.xlsx 
+2019-08-08 01:44:03 INFO  AndroidDriverUtil:52 - EBAY Application Started 
+2019-08-08 01:44:03 INFO  BaseTest:47 - EBAY: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Starting Test
+2019-08-08 01:44:03 DEBUG EbayBasePage:34 - com.ebay.pages.common.EbayBasePage page initializing
+2019-08-08 01:44:03 INFO  ExcelReader:50 - 2
+2019-08-08 01:44:03 INFO  ExcelReader:52 - 0
+2019-08-08 01:44:03 INFO  ExcelReader:61 - [Email]: p.reiin.saini@gmail.com [Password] test@2019 [UserId] presa4295 [SearchText] chocolate 
+2019-08-08 01:44:03 INFO  ExcelReader:65 - [[Ljava.lang.Object;@6f89f665]
+2019-08-08 01:44:04 INFO  BaseTest:59 - EBAY: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Completing Test
+2019-08-08 01:44:04 INFO  BaseTest:65 - EBAY: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Ending Test
+2019-08-08 01:53:32 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-08 01:53:32 INFO  ExcelReader:37 -  Reading File: src\test\resources\TestData.xlsx
+2019-08-08 01:53:34 INFO  ExcelReader:41 - Reading dataFile completed 
+2019-08-08 01:53:34 INFO  BaseTest:37 - EBAY: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Initializing Suite
+2019-08-08 01:53:34 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-08 01:53:34 INFO  AndroidDriverUtil:44 - Android Environment is initialised with DesiredCapabilities 
+2019-08-08 01:53:34 INFO  AndroidDriverUtil:45 - [Platform_Name]: null [Platform_Version]: 9 [Device_name]: My MI [UDID]: 4aa88f4 [App_Package]: com.ebay.mobile [App_Activity]: com.ebay.mobile.activities.MainActivity [Appium_URL]: http://0.0.0.0:4723/wd/hub [DATA FILE]: TestData.xlsx 
+2019-08-08 01:53:42 INFO  AndroidDriverUtil:52 - EBAY Application Started 
+2019-08-08 01:53:42 INFO  BaseTest:48 - EBAY: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Starting Test
+2019-08-08 01:53:42 DEBUG EbayBasePage:34 - com.ebay.pages.common.EbayBasePage page initializing
+2019-08-08 01:53:42 INFO  ExcelReader:52 - 2
+2019-08-08 01:53:42 INFO  ExcelReader:54 - 0
+2019-08-08 01:53:42 INFO  ExcelReader:63 - [Email]: p.reiin.saini@gmail.com [Password] test@2019 [UserId] presa4295 [SearchText] chocolate 
+2019-08-08 01:53:42 INFO  ExcelReader:67 - [[Ljava.lang.Object;@6f89f665]
+2019-08-08 01:53:42 INFO  BaseTest:54 - EBAY: [verifyLogin_CheckoutFlow] Before running test method
+2019-08-08 01:53:42 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageActions page initializing
+2019-08-08 01:53:42 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageLocators page initializing
+2019-08-08 01:53:42 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-08 01:53:42 DEBUG EbayBasePage:34 - com.ebay.pages.MainMenu.MainMenuLocators page initializing
+2019-08-08 01:53:42 DEBUG EbayBasePage:34 - com.ebay.pages.itemDetailPage.ItemDetailsPageAssertions page initializing
+2019-08-08 01:53:42 DEBUG EbayBasePage:34 - com.ebay.pages.itemDetailPage.ItemDetailPageLocators page initializing
+2019-08-08 01:53:42 DEBUG EbayBasePage:34 - com.ebay.pages.ItemQuantityPage.ItemQuantityPageAssertions page initializing
+2019-08-08 01:53:42 DEBUG EbayBasePage:34 - com.ebay.pages.ItemQuantityPage.ItemQuantityPageLocator page initializing
+2019-08-08 01:53:42 DEBUG EbayBasePage:34 - com.ebay.pages.Checkout.CheckoutPageAssertions page initializing
+2019-08-08 01:53:42 DEBUG EbayBasePage:34 - com.ebay.pages.Checkout.CheckoutPageLocators page initializing
+2019-08-08 01:53:42 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageAssertions page initializing
+2019-08-08 01:53:42 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-08 01:53:42 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchPageLocators page initializing
+2019-08-08 01:53:42 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchResultPageActions page initializing
+2019-08-08 01:53:42 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchResultPageLocators page initializing
+2019-08-08 01:53:43 INFO  LandingPageLocator:44 - landing Page->Clicked on main menu
+2019-08-08 01:53:44 INFO  MainMenuLocators:28 - Main Menu ->Clicked on Sign IN
+2019-08-08 01:53:51 INFO  SignInPageLocators:35 - SignINPage-> email entered p.reiin.saini@gmail.com
+2019-08-08 01:53:57 INFO  SignInPageLocators:40 - SignINPage-> password entered By.id: com.ebay.mobile:id/et_temp
+2019-08-08 01:53:57 INFO  SignInPageLocators:45 - SignINPage-> Clicked on SignIn Button 
+2019-08-08 01:53:57 INFO  SignInPageActions:47 - Sign In button Clicked
+2019-08-08 01:53:58 INFO  EbayBasePage:45 - wait initiated
+2019-08-08 01:54:03 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-08 01:54:03 INFO  EbayBasePage:49 - true
+2019-08-08 01:54:03 INFO  LandingPageLocator:44 - landing Page->Clicked on main menu
+2019-08-08 01:54:04 INFO  MainMenuLocators:33 - Main Menu -> Signed In USer ---- presa4295
+2019-08-08 01:54:04 INFO  MainMenuLocators:39 - Main Menu -> Home -> Clicked on Home
+2019-08-08 01:54:04 INFO  SignInPageActions:61 - User is Directed to Home
+2019-08-08 01:54:05 INFO  LandingPageLocator:63 - Search Text Box Clicked
+2019-08-08 01:54:11 INFO  ItemDetailPageLocators:29 - Search Page-> Entered Search text is chocolate
+2019-08-08 01:54:13 INFO  EbayBasePage:45 - wait initiated
+2019-08-08 01:54:14 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-08 01:54:14 INFO  EbayBasePage:49 - true
+2019-08-08 01:54:14 INFO  EbayBasePage:45 - wait initiated
+2019-08-08 01:54:15 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-08 01:54:15 INFO  EbayBasePage:49 - true
+2019-08-08 01:54:15 INFO  SearchResultPageLocators:47 -  Search page is Loaded with Result count5,267 Results
+2019-08-08 01:54:15 INFO  SearchResultPageLocators:33 - Search Result Page is loaded
+2019-08-08 01:54:15 INFO  SearchResultPageLocators:59 - Second product from the list is Selected 
+2019-08-08 01:54:15 INFO  EbayBasePage:45 - wait initiated
+2019-08-08 01:54:20 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-08 01:54:20 INFO  EbayBasePage:49 - true
+2019-08-08 01:54:20 INFO  ItemDetailPageLocators:49 - Buy Now Button is present true
+2019-08-08 01:54:20 INFO  EbayBasePage:45 - wait initiated
+2019-08-08 01:54:21 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-08 01:54:21 INFO  EbayBasePage:49 - true
+2019-08-08 01:54:21 INFO  ItemDetailPageLocators:49 - Buy Now Button is present true
+2019-08-08 01:54:21 INFO  ItemDetailsPageAssertions:28 - ItemDetailsPage is loaded Successfully
+2019-08-08 01:54:21 INFO  ItemDetailPageLocators:32 - ItemName is set to  M&M's Peanut Chocolate Party Size Bucket 575g Lollies
+2019-08-08 01:54:21 INFO  ItemDetailPageLocators:39 - ItemPrice is set to  AU $10.38
+2019-08-08 01:54:21 INFO  ItemDetailsPageAssertions:42 - Selected Product Details are [Item Name]: M&M's Peanut Chocolate Party Size Bucket 575g Lollies [Item Price]: AU $10.38 
+2019-08-08 01:54:21 INFO  ItemDetailsPageAssertions:43 - Selected Product Name are M&M's Peanut Chocolate Party Size Bucket 575g Lollies
+2019-08-08 01:54:21 INFO  ItemDetailsPageAssertions:44 - Selected Product Price are AU $10.38
+2019-08-08 01:54:21 INFO  ItemDetailPageLocators:56 - Clicked on Buy Now Button true
+2019-08-08 01:54:21 INFO  EbayBasePage:45 - wait initiated
+2019-08-08 01:54:23 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-08 01:54:23 INFO  EbayBasePage:49 - true
+2019-08-08 01:54:23 INFO  ItemQuantityPageLocator:26 - item Enter Quantity page is Loaded and Page Titile isEnter quantity
+2019-08-08 01:54:23 INFO  ItemQuantityPageAssertions:25 - Enter Quantity page is loaded successgully 
+2019-08-08 01:54:23 INFO  ItemQuantityPageLocator:32 - Clicked on Review Button 
+2019-08-08 01:54:23 INFO  EbayBasePage:45 - wait initiated
+2019-08-08 01:54:24 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-08 01:54:24 INFO  EbayBasePage:49 - true
+2019-08-08 01:54:24 INFO  CheckoutPageLocators:44 - Checkout Page is Loaded true
+2019-08-08 01:54:24 INFO  EbayBasePage:45 - wait initiated
+2019-08-08 01:54:24 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-08 01:54:24 INFO  EbayBasePage:49 - true
+2019-08-08 01:54:24 INFO  CheckoutPageLocators:44 - Checkout Page is Loaded true
+2019-08-08 01:54:24 INFO  CheckoutPageAssertions:26 - Checkout page is Loaded Successfully
+2019-08-08 01:54:27 INFO  CheckoutPageLocators:31 - ItemName is set to  M&M's Peanut Chocolate Party Size Bucket 575g Lollies
+2019-08-08 01:54:27 INFO  CheckoutPageLocators:38 - ItemPrice is set to  AU $10.38
+2019-08-08 01:54:27 INFO  CheckoutPageAssertions:35 - Selected Product Details are [Item Name]: M&M's Peanut Chocolate Party Size Bucket 575g Lollies [Item Price]: AU $10.38 
+2019-08-08 01:54:27 INFO  CheckoutPageAssertions:36 - Selected Product Name are M&M's Peanut Chocolate Party Size Bucket 575g Lollies
+2019-08-08 01:54:27 INFO  CheckoutPageAssertions:37 - Selected Product Price are AU $10.38
+2019-08-08 01:54:27 INFO  verifyLoginAddtoCartCheckoutFlow:51 - Product details in Checkout Page is same as available in Item-Detail-Page 
+2019-08-08 01:54:27 INFO  BaseTest:60 - EBAY: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Completing Test
+2019-08-08 01:54:29 INFO  BaseTest:66 - EBAY: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Ending Test
+2019-08-08 02:07:18 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-08 02:07:18 INFO  ExcelReader:34 -  Reading File: src\test\resources\TestData.xlsx
+2019-08-08 02:07:19 INFO  ExcelReader:38 - Reading dataFile completed 
+2019-08-08 02:07:19 INFO  BaseTest:37 - EBAY: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Initializing Suite
+2019-08-08 02:07:19 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-08 02:07:19 INFO  AndroidDriverUtil:44 - Android Environment is initialised with DesiredCapabilities 
+2019-08-08 02:07:19 INFO  AndroidDriverUtil:45 - [Platform_Name]: null [Platform_Version]: 9 [Device_name]: My MI [UDID]: 4aa88f4 [App_Package]: com.ebay.mobile [App_Activity]: com.ebay.mobile.activities.MainActivity [Appium_URL]: http://0.0.0.0:4723/wd/hub [DATA FILE]: TestData.xlsx 
+2019-08-08 02:07:26 INFO  AndroidDriverUtil:52 - EBAY Application Started 
+2019-08-08 02:07:26 INFO  BaseTest:48 - EBAY: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Starting Test
+2019-08-08 02:07:26 DEBUG EbayBasePage:34 - com.ebay.pages.common.EbayBasePage page initializing
+2019-08-08 02:07:26 INFO  ExcelReader:49 - 2
+2019-08-08 02:07:26 INFO  ExcelReader:51 - 0
+2019-08-08 02:07:26 INFO  ExcelReader:60 - [Email]: p.reiin.saini@gmail.com [Password] test@2019 [UserId] presa4295 [SearchText] chocolate 
+2019-08-08 02:07:26 INFO  BaseTest:54 - EBAY: [verifyLogin_CheckoutFlow] Before running test method
+2019-08-08 02:07:26 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageActions page initializing
+2019-08-08 02:07:26 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageLocators page initializing
+2019-08-08 02:07:26 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-08 02:07:26 DEBUG EbayBasePage:34 - com.ebay.pages.MainMenu.MainMenuLocators page initializing
+2019-08-08 02:07:26 DEBUG EbayBasePage:34 - com.ebay.pages.itemDetailPage.ItemDetailsPageAssertions page initializing
+2019-08-08 02:07:26 DEBUG EbayBasePage:34 - com.ebay.pages.itemDetailPage.ItemDetailPageLocators page initializing
+2019-08-08 02:07:26 DEBUG EbayBasePage:34 - com.ebay.pages.ItemQuantityPage.ItemQuantityPageAssertions page initializing
+2019-08-08 02:07:26 DEBUG EbayBasePage:34 - com.ebay.pages.ItemQuantityPage.ItemQuantityPageLocator page initializing
+2019-08-08 02:07:27 DEBUG EbayBasePage:34 - com.ebay.pages.Checkout.CheckoutPageAssertions page initializing
+2019-08-08 02:07:27 DEBUG EbayBasePage:34 - com.ebay.pages.Checkout.CheckoutPageLocators page initializing
+2019-08-08 02:07:27 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageAssertions page initializing
+2019-08-08 02:07:27 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-08 02:07:27 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchPageLocators page initializing
+2019-08-08 02:07:27 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchResultPageActions page initializing
+2019-08-08 02:07:27 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchResultPageLocators page initializing
+2019-08-08 02:07:27 INFO  LandingPageLocator:44 - landing Page->Clicked on main menu
+2019-08-08 02:07:28 INFO  MainMenuLocators:28 - Main Menu ->Clicked on Sign IN
+2019-08-08 02:07:34 INFO  SignInPageLocators:35 - SignINPage-> email entered p.reiin.saini@gmail.com
+2019-08-08 02:07:40 INFO  SignInPageLocators:40 - SignINPage-> password entered By.id: com.ebay.mobile:id/et_temp
+2019-08-08 02:07:41 INFO  SignInPageLocators:45 - SignINPage-> Clicked on SignIn Button 
+2019-08-08 02:07:41 INFO  SignInPageActions:47 - Sign In button Clicked
+2019-08-08 02:07:41 INFO  EbayBasePage:45 - wait initiated
+2019-08-08 02:07:47 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-08 02:07:47 INFO  EbayBasePage:49 - true
+2019-08-08 02:07:48 INFO  LandingPageLocator:44 - landing Page->Clicked on main menu
+2019-08-08 02:07:49 INFO  MainMenuLocators:33 - Main Menu -> Signed In USer ---- presa4295
+2019-08-08 02:07:50 INFO  MainMenuLocators:39 - Main Menu -> Home -> Clicked on Home
+2019-08-08 02:07:50 INFO  SignInPageActions:61 - User is Directed to Home
+2019-08-08 02:07:51 INFO  LandingPageLocator:63 - Search Text Box Clicked
+2019-08-08 02:07:57 INFO  ItemDetailPageLocators:29 - Search Page-> Entered Search text is chocolate
+2019-08-08 02:07:57 INFO  EbayBasePage:45 - wait initiated
+2019-08-08 02:07:59 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-08 02:08:00 INFO  EbayBasePage:49 - true
+2019-08-08 02:08:00 INFO  EbayBasePage:45 - wait initiated
+2019-08-08 02:08:00 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-08 02:08:01 INFO  EbayBasePage:49 - true
+2019-08-08 02:08:01 INFO  SearchResultPageLocators:47 -  Search page is Loaded with Result count5,267 Results
+2019-08-08 02:08:01 INFO  SearchResultPageLocators:33 - Search Result Page is loaded
+2019-08-08 02:08:01 INFO  SearchResultPageLocators:59 - Second product from the list is Selected 
+2019-08-08 02:08:01 INFO  EbayBasePage:45 - wait initiated
+2019-08-08 02:08:04 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-08 02:08:04 INFO  EbayBasePage:49 - true
+2019-08-08 02:08:04 INFO  ItemDetailPageLocators:49 - Buy Now Button is present true
+2019-08-08 02:08:04 INFO  EbayBasePage:45 - wait initiated
+2019-08-08 02:08:04 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-08 02:08:05 INFO  EbayBasePage:49 - true
+2019-08-08 02:08:05 INFO  ItemDetailPageLocators:49 - Buy Now Button is present true
+2019-08-08 02:08:05 INFO  ItemDetailsPageAssertions:28 - ItemDetailsPage is loaded Successfully
+2019-08-08 02:08:06 INFO  ItemDetailPageLocators:32 - ItemName is set to  M&M's Peanut Chocolate Party Size Bucket 575g Lollies
+2019-08-08 02:08:09 INFO  ItemDetailPageLocators:39 - ItemPrice is set to  AU $10.38
+2019-08-08 02:08:09 INFO  ItemDetailsPageAssertions:42 - Selected Product Details are [Item Name]: M&M's Peanut Chocolate Party Size Bucket 575g Lollies [Item Price]: AU $10.38 
+2019-08-08 02:08:09 INFO  ItemDetailsPageAssertions:43 - Selected Product Name are M&M's Peanut Chocolate Party Size Bucket 575g Lollies
+2019-08-08 02:08:09 INFO  ItemDetailsPageAssertions:44 - Selected Product Price are AU $10.38
+2019-08-08 02:08:10 INFO  ItemDetailPageLocators:56 - Clicked on Buy Now Button true
+2019-08-08 02:08:10 INFO  EbayBasePage:45 - wait initiated
+2019-08-08 02:08:11 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-08 02:08:11 INFO  EbayBasePage:49 - true
+2019-08-08 02:08:11 INFO  ItemQuantityPageLocator:26 - item Enter Quantity page is Loaded and Page Titile isEnter quantity
+2019-08-08 02:08:11 INFO  ItemQuantityPageAssertions:25 - Enter Quantity page is loaded successgully 
+2019-08-08 02:08:11 INFO  ItemQuantityPageLocator:32 - Clicked on Review Button 
+2019-08-08 02:08:12 INFO  EbayBasePage:45 - wait initiated
+2019-08-08 02:08:12 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-08 02:08:12 INFO  EbayBasePage:49 - true
+2019-08-08 02:08:12 INFO  CheckoutPageLocators:44 - Checkout Page is Loaded true
+2019-08-08 02:08:12 INFO  EbayBasePage:45 - wait initiated
+2019-08-08 02:08:12 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-08 02:08:12 INFO  EbayBasePage:49 - true
+2019-08-08 02:08:13 INFO  CheckoutPageLocators:44 - Checkout Page is Loaded true
+2019-08-08 02:08:13 INFO  CheckoutPageAssertions:26 - Checkout page is Loaded Successfully
+2019-08-08 02:08:16 INFO  CheckoutPageLocators:31 - ItemName is set to  M&M's Peanut Chocolate Party Size Bucket 575g Lollies
+2019-08-08 02:08:16 INFO  CheckoutPageLocators:38 - ItemPrice is set to  AU $10.38
+2019-08-08 02:08:16 INFO  CheckoutPageAssertions:35 - Selected Product Details are [Item Name]: M&M's Peanut Chocolate Party Size Bucket 575g Lollies [Item Price]: AU $10.38 
+2019-08-08 02:08:16 INFO  CheckoutPageAssertions:36 - Selected Product Name are M&M's Peanut Chocolate Party Size Bucket 575g Lollies
+2019-08-08 02:08:16 INFO  CheckoutPageAssertions:37 - Selected Product Price are AU $10.38
+2019-08-08 02:08:16 INFO  verifyLoginAddtoCartCheckoutFlow:51 - Product details in Checkout Page is same as available in Item-Detail-Page 
+2019-08-08 02:08:17 INFO  BaseTest:60 - EBAY: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Completing Test
+2019-08-08 02:08:18 INFO  BaseTest:66 - EBAY: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Ending Test
+2019-08-08 17:11:05 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-08 17:11:05 INFO  ExcelReader:34 -  Reading File: src\test\resources\TestData.xlsx
+2019-08-08 17:11:06 INFO  ExcelReader:38 - Reading dataFile completed 
+2019-08-08 17:11:06 INFO  BaseTest:37 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Initializing Suite
+2019-08-08 17:11:06 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-08 17:11:06 INFO  AndroidDriverUtil:44 - Android Environment is initialised with DesiredCapabilities 
+2019-08-08 17:11:06 INFO  AndroidDriverUtil:45 - [Platform_Name]: null [Platform_Version]: 9 [Device_name]: My MI [UDID]: 4aa88f4 [App_Package]: com.ebay.mobile [App_Activity]: com.ebay.mobile.activities.MainActivity [Appium_URL]: http://0.0.0.0:4723/wd/hub [DATA FILE]: TestData.xlsx 
+2019-08-08 17:11:20 INFO  AndroidDriverUtil:52 - EBAY Application Started 
+2019-08-08 17:11:20 INFO  BaseTest:48 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Starting Test
+2019-08-08 17:11:20 DEBUG EbayBasePage:34 - com.ebay.pages.common.EbayBasePage page initializing
+2019-08-08 17:11:20 INFO  ExcelReader:49 - 2
+2019-08-08 17:11:20 INFO  ExcelReader:51 - 0
+2019-08-08 17:11:20 INFO  ExcelReader:60 - [Email]: p.reiin.saini@gmail.com [Password] test@2019 [UserId] presa4295 [SearchText] chocolate 
+2019-08-08 17:11:20 INFO  BaseTest:60 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Completing Test
+2019-08-08 17:11:21 INFO  BaseTest:66 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Ending Test
+2019-08-09 10:30:02 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 10:30:02 INFO  ExcelReader:34 -  Reading File: src\test\resources\TestData.xlsx
+2019-08-09 10:30:03 INFO  ExcelReader:38 - Reading dataFile completed 
+2019-08-09 10:30:03 INFO  BaseTest:37 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Initializing Suite
+2019-08-09 10:30:03 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 10:30:03 INFO  AndroidDriverUtil:44 - Android Environment is initialised with DesiredCapabilities 
+2019-08-09 10:30:03 INFO  AndroidDriverUtil:45 - [Platform_Name]: null [Platform_Version]: 9 [Device_name]: My MI [UDID]: 4aa88f4 [App_Package]: com.ebay.mobile [App_Activity]: com.ebay.mobile.activities.MainActivity [Appium_URL]: http://0.0.0.0:4723/wd/hub [DATA FILE]: TestData.xlsx 
+2019-08-09 10:30:14 INFO  AndroidDriverUtil:52 - EBAY Application Started 
+2019-08-09 10:30:14 INFO  BaseTest:48 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Starting Test
+2019-08-09 10:30:14 DEBUG EbayBasePage:34 - com.ebay.pages.common.EbayBasePage page initializing
+2019-08-09 10:30:14 INFO  ExcelReader:49 - 2
+2019-08-09 10:30:14 INFO  ExcelReader:51 - 0
+2019-08-09 10:30:15 INFO  ExcelReader:60 - [Email]: p.reiin.saini@gmail.com [Password] test@2019 [UserId] presa4295 [SearchText] chocolate 
+2019-08-09 10:30:15 INFO  BaseTest:54 - EBAY: [VerifyLogin] Before running test method
+2019-08-09 10:30:15 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageActions page initializing
+2019-08-09 10:30:15 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageLocators page initializing
+2019-08-09 10:30:15 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-09 10:30:15 DEBUG EbayBasePage:34 - com.ebay.pages.MainMenu.MainMenuLocators page initializing
+2019-08-09 10:30:15 INFO  LandingPageLocator:44 - landing Page->Clicked on main menu
+2019-08-09 10:30:16 INFO  MainMenuLocators:28 - Main Menu ->Clicked on Sign IN
+2019-08-09 10:30:23 INFO  SignInPageLocators:35 - SignINPage-> email entered p.reiin.saini@gmail.com
+2019-08-09 10:30:29 INFO  SignInPageLocators:40 - SignINPage-> password entered By.id: com.ebay.mobile:id/et_temp
+2019-08-09 10:30:30 INFO  SignInPageLocators:45 - SignINPage-> Clicked on SignIn Button 
+2019-08-09 10:30:30 INFO  SignInPageActions:47 - Sign In button Clicked
+2019-08-09 10:30:30 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 10:30:34 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 10:30:34 INFO  EbayBasePage:49 - true
+2019-08-09 10:30:34 INFO  LandingPageLocator:44 - landing Page->Clicked on main menu
+2019-08-09 10:30:38 INFO  MainMenuLocators:33 - Main Menu -> Signed In USer ---- presa4295
+2019-08-09 10:30:38 INFO  MainMenuLocators:39 - Main Menu -> Home -> Clicked on Home
+2019-08-09 10:30:38 INFO  SignInPageActions:61 - User is Directed to Home
+2019-08-09 10:30:38 INFO  BaseTest:60 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Completing Test
+2019-08-09 10:30:40 INFO  BaseTest:66 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Ending Test
+2019-08-09 10:32:45 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 10:32:45 INFO  ExcelReader:34 -  Reading File: src\test\resources\TestData.xlsx
+2019-08-09 10:32:46 INFO  ExcelReader:38 - Reading dataFile completed 
+2019-08-09 10:32:46 INFO  BaseTest:37 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Initializing Suite
+2019-08-09 10:32:46 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 10:32:46 INFO  AndroidDriverUtil:44 - Android Environment is initialised with DesiredCapabilities 
+2019-08-09 10:32:46 INFO  AndroidDriverUtil:45 - [Platform_Name]: null [Platform_Version]: 9 [Device_name]: My MI [UDID]: 4aa88f4 [App_Package]: com.ebay.mobile [App_Activity]: com.ebay.mobile.activities.MainActivity [Appium_URL]: http://0.0.0.0:4723/wd/hub [DATA FILE]: TestData.xlsx 
+2019-08-09 10:32:53 INFO  AndroidDriverUtil:52 - EBAY Application Started 
+2019-08-09 10:32:53 INFO  BaseTest:48 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Starting Test
+2019-08-09 10:32:53 DEBUG EbayBasePage:34 - com.ebay.pages.common.EbayBasePage page initializing
+2019-08-09 10:32:53 INFO  ExcelReader:49 - 2
+2019-08-09 10:32:53 INFO  ExcelReader:51 - 0
+2019-08-09 10:32:53 INFO  ExcelReader:60 - [Email]: p.reiin.saini@gmail.com [Password] test@2019 [UserId] presa4295 [SearchText] chocolate 
+2019-08-09 10:32:53 INFO  BaseTest:54 - EBAY: [VerifyLogin] Before running test method
+2019-08-09 10:32:53 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageActions page initializing
+2019-08-09 10:32:53 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageLocators page initializing
+2019-08-09 10:32:53 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-09 10:32:53 DEBUG EbayBasePage:34 - com.ebay.pages.MainMenu.MainMenuLocators page initializing
+2019-08-09 10:32:54 INFO  LandingPageLocator:44 - landing Page->Clicked on main menu
+2019-08-09 10:32:55 INFO  MainMenuLocators:28 - Main Menu ->Clicked on Sign IN
+2019-08-09 10:33:01 INFO  SignInPageLocators:35 - SignINPage-> email entered p.reiin.saini@gmail.com
+2019-08-09 10:33:07 INFO  SignInPageLocators:40 - SignINPage-> password entered By.id: com.ebay.mobile:id/et_temp
+2019-08-09 10:33:08 INFO  SignInPageLocators:45 - SignINPage-> Clicked on SignIn Button 
+2019-08-09 10:33:08 INFO  SignInPageActions:47 - Sign In button Clicked
+2019-08-09 10:33:08 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 10:33:11 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 10:33:11 INFO  EbayBasePage:49 - true
+2019-08-09 10:33:12 INFO  LandingPageLocator:44 - landing Page->Clicked on main menu
+2019-08-09 10:33:13 INFO  MainMenuLocators:33 - Main Menu -> Signed In USer ---- presa4295
+2019-08-09 10:33:13 INFO  MainMenuLocators:39 - Main Menu -> Home -> Clicked on Home
+2019-08-09 10:33:13 INFO  SignInPageActions:61 - User is Directed to Home
+2019-08-09 10:33:13 INFO  BaseTest:54 - EBAY: [VerifySearch] Before running test method
+2019-08-09 10:33:13 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageAssertions page initializing
+2019-08-09 10:33:13 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-09 10:33:13 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchPageLocators page initializing
+2019-08-09 10:33:15 INFO  LandingPageLocator:63 - Search Text Box Clicked
+2019-08-09 10:33:21 INFO  ItemDetailPageLocators:29 - Search Page-> Entered Search text is Chocolate
+2019-08-09 10:33:22 INFO  BaseTest:60 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Completing Test
+2019-08-09 10:33:23 INFO  BaseTest:66 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Ending Test
+2019-08-09 10:40:59 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 10:40:59 INFO  ExcelReader:34 -  Reading File: src\test\resources\TestData.xlsx
+2019-08-09 10:41:00 INFO  ExcelReader:38 - Reading dataFile completed 
+2019-08-09 10:41:00 INFO  BaseTest:37 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Initializing Suite
+2019-08-09 10:41:00 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 10:41:00 INFO  AndroidDriverUtil:44 - Android Environment is initialised with DesiredCapabilities 
+2019-08-09 10:41:00 INFO  AndroidDriverUtil:45 - [Platform_Name]: null [Platform_Version]: 9 [Device_name]: My MI [UDID]: 4aa88f4 [App_Package]: com.ebay.mobile [App_Activity]: com.ebay.mobile.activities.MainActivity [Appium_URL]: http://0.0.0.0:4723/wd/hub [DATA FILE]: TestData.xlsx 
+2019-08-09 10:41:07 INFO  AndroidDriverUtil:52 - EBAY Application Started 
+2019-08-09 10:41:07 INFO  BaseTest:48 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Starting Test
+2019-08-09 10:41:07 DEBUG EbayBasePage:34 - com.ebay.pages.common.EbayBasePage page initializing
+2019-08-09 10:41:07 INFO  ExcelReader:49 - 2
+2019-08-09 10:41:07 INFO  ExcelReader:51 - 0
+2019-08-09 10:41:07 INFO  ExcelReader:60 - [Email]: p.reiin.saini@gmail.com [Password] test@2019 [UserId] presa4295 [SearchText] chocolate 
+2019-08-09 10:41:08 INFO  BaseTest:54 - EBAY: [VerifyLogin] Before running test method
+2019-08-09 10:41:08 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageActions page initializing
+2019-08-09 10:41:08 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageLocators page initializing
+2019-08-09 10:41:08 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-09 10:41:08 DEBUG EbayBasePage:34 - com.ebay.pages.MainMenu.MainMenuLocators page initializing
+2019-08-09 10:41:08 INFO  LandingPageLocator:44 - landing Page->Clicked on main menu
+2019-08-09 10:41:10 INFO  MainMenuLocators:28 - Main Menu ->Clicked on Sign IN
+2019-08-09 10:41:16 INFO  SignInPageLocators:35 - SignINPage-> email entered p.reiin.saini@gmail.com
+2019-08-09 10:41:22 INFO  SignInPageLocators:40 - SignINPage-> password entered By.id: com.ebay.mobile:id/et_temp
+2019-08-09 10:41:22 INFO  SignInPageLocators:45 - SignINPage-> Clicked on SignIn Button 
+2019-08-09 10:41:22 INFO  SignInPageActions:47 - Sign In button Clicked
+2019-08-09 10:41:22 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 10:41:26 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 10:41:26 INFO  EbayBasePage:49 - true
+2019-08-09 10:41:29 INFO  LandingPageLocator:44 - landing Page->Clicked on main menu
+2019-08-09 10:41:30 INFO  MainMenuLocators:33 - Main Menu -> Signed In USer ---- presa4295
+2019-08-09 10:41:30 INFO  MainMenuLocators:39 - Main Menu -> Home -> Clicked on Home
+2019-08-09 10:41:30 INFO  SignInPageActions:61 - User is Directed to Home
+2019-08-09 10:41:30 INFO  BaseTest:54 - EBAY: [VerifySearch] Before running test method
+2019-08-09 10:41:30 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageAssertions page initializing
+2019-08-09 10:41:30 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-09 10:41:30 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchPageLocators page initializing
+2019-08-09 10:41:31 INFO  LandingPageLocator:63 - Search Text Box Clicked
+2019-08-09 10:41:37 INFO  ItemDetailPageLocators:29 - Search Page-> Entered Search text is Chocolate
+2019-08-09 10:41:38 INFO  BaseTest:60 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Completing Test
+2019-08-09 10:41:39 INFO  BaseTest:66 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Ending Test
+2019-08-09 10:46:04 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 10:46:04 INFO  ExcelReader:34 -  Reading File: src\test\resources\TestData.xlsx
+2019-08-09 10:46:05 INFO  ExcelReader:38 - Reading dataFile completed 
+2019-08-09 10:46:05 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchResultPageActions page initializing
+2019-08-09 10:46:05 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchResultPageLocators page initializing
+2019-08-09 10:46:05 INFO  BaseTest:37 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Initializing Suite
+2019-08-09 10:46:05 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 10:46:05 INFO  AndroidDriverUtil:44 - Android Environment is initialised with DesiredCapabilities 
+2019-08-09 10:46:05 INFO  AndroidDriverUtil:45 - [Platform_Name]: null [Platform_Version]: 9 [Device_name]: My MI [UDID]: 4aa88f4 [App_Package]: com.ebay.mobile [App_Activity]: com.ebay.mobile.activities.MainActivity [Appium_URL]: http://0.0.0.0:4723/wd/hub [DATA FILE]: TestData.xlsx 
+2019-08-09 10:46:11 INFO  AndroidDriverUtil:52 - EBAY Application Started 
+2019-08-09 10:46:11 INFO  BaseTest:48 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Starting Test
+2019-08-09 10:46:11 DEBUG EbayBasePage:34 - com.ebay.pages.common.EbayBasePage page initializing
+2019-08-09 10:46:11 INFO  ExcelReader:49 - 2
+2019-08-09 10:46:11 INFO  ExcelReader:51 - 0
+2019-08-09 10:46:11 INFO  ExcelReader:60 - [Email]: p.reiin.saini@gmail.com [Password] test@2019 [UserId] presa4295 [SearchText] chocolate 
+2019-08-09 10:46:12 INFO  BaseTest:54 - EBAY: [VerifyLogin] Before running test method
+2019-08-09 10:46:12 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageActions page initializing
+2019-08-09 10:46:12 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageLocators page initializing
+2019-08-09 10:46:12 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-09 10:46:12 DEBUG EbayBasePage:34 - com.ebay.pages.MainMenu.MainMenuLocators page initializing
+2019-08-09 10:46:12 INFO  LandingPageLocator:44 - landing Page->Clicked on main menu
+2019-08-09 10:46:13 INFO  MainMenuLocators:28 - Main Menu ->Clicked on Sign IN
+2019-08-09 10:46:20 INFO  SignInPageLocators:35 - SignINPage-> email entered p.reiin.saini@gmail.com
+2019-08-09 10:46:25 INFO  SignInPageLocators:40 - SignINPage-> password entered By.id: com.ebay.mobile:id/et_temp
+2019-08-09 10:46:26 INFO  SignInPageLocators:45 - SignINPage-> Clicked on SignIn Button 
+2019-08-09 10:46:26 INFO  SignInPageActions:47 - Sign In button Clicked
+2019-08-09 10:46:26 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 10:46:29 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 10:46:29 INFO  EbayBasePage:49 - true
+2019-08-09 10:46:31 INFO  LandingPageLocator:44 - landing Page->Clicked on main menu
+2019-08-09 10:46:32 INFO  MainMenuLocators:33 - Main Menu -> Signed In USer ---- presa4295
+2019-08-09 10:46:32 INFO  MainMenuLocators:39 - Main Menu -> Home -> Clicked on Home
+2019-08-09 10:46:32 INFO  SignInPageActions:61 - User is Directed to Home
+2019-08-09 10:46:32 INFO  BaseTest:54 - EBAY: [VerifySearch] Before running test method
+2019-08-09 10:46:32 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageAssertions page initializing
+2019-08-09 10:46:32 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-09 10:46:32 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchPageLocators page initializing
+2019-08-09 10:46:34 INFO  LandingPageLocator:63 - Search Text Box Clicked
+2019-08-09 10:46:39 INFO  ItemDetailPageLocators:29 - Search Page-> Entered Search text is Chocolate
+2019-08-09 10:46:41 INFO  BaseTest:60 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Completing Test
+2019-08-09 10:46:42 INFO  BaseTest:66 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Ending Test
+2019-08-09 10:52:41 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 10:52:41 INFO  ExcelReader:34 -  Reading File: src\test\resources\TestData.xlsx
+2019-08-09 10:52:42 INFO  ExcelReader:38 - Reading dataFile completed 
+2019-08-09 10:52:42 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchResultPageActions page initializing
+2019-08-09 10:52:42 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchResultPageLocators page initializing
+2019-08-09 10:52:42 INFO  BaseTest:37 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Initializing Suite
+2019-08-09 10:52:42 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 10:52:42 INFO  AndroidDriverUtil:44 - Android Environment is initialised with DesiredCapabilities 
+2019-08-09 10:52:42 INFO  AndroidDriverUtil:45 - [Platform_Name]: null [Platform_Version]: 9 [Device_name]: My MI [UDID]: 4aa88f4 [App_Package]: com.ebay.mobile [App_Activity]: com.ebay.mobile.activities.MainActivity [Appium_URL]: http://0.0.0.0:4723/wd/hub [DATA FILE]: TestData.xlsx 
+2019-08-09 10:52:48 INFO  AndroidDriverUtil:52 - EBAY Application Started 
+2019-08-09 10:52:48 INFO  BaseTest:48 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Starting Test
+2019-08-09 10:52:48 DEBUG EbayBasePage:34 - com.ebay.pages.common.EbayBasePage page initializing
+2019-08-09 10:52:48 INFO  ExcelReader:49 - 2
+2019-08-09 10:52:48 INFO  ExcelReader:51 - 0
+2019-08-09 10:52:48 INFO  ExcelReader:60 - [Email]: p.reiin.saini@gmail.com [Password] test@2019 [UserId] presa4295 [SearchText] chocolate 
+2019-08-09 10:52:48 INFO  BaseTest:54 - EBAY: [VerifyLogin] Before running test method
+2019-08-09 10:52:48 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageActions page initializing
+2019-08-09 10:52:48 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageLocators page initializing
+2019-08-09 10:52:48 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-09 10:52:48 DEBUG EbayBasePage:34 - com.ebay.pages.MainMenu.MainMenuLocators page initializing
+2019-08-09 10:52:49 INFO  LandingPageLocator:44 - landing Page->Clicked on main menu
+2019-08-09 10:52:50 INFO  MainMenuLocators:28 - Main Menu ->Clicked on Sign IN
+2019-08-09 10:52:56 INFO  SignInPageLocators:35 - SignINPage-> email entered p.reiin.saini@gmail.com
+2019-08-09 10:53:02 INFO  SignInPageLocators:40 - SignINPage-> password entered By.id: com.ebay.mobile:id/et_temp
+2019-08-09 10:53:02 INFO  SignInPageLocators:45 - SignINPage-> Clicked on SignIn Button 
+2019-08-09 10:53:02 INFO  SignInPageActions:47 - Sign In button Clicked
+2019-08-09 10:53:02 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 10:53:06 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 10:53:06 INFO  EbayBasePage:49 - true
+2019-08-09 10:53:06 INFO  LandingPageLocator:44 - landing Page->Clicked on main menu
+2019-08-09 10:53:07 INFO  MainMenuLocators:33 - Main Menu -> Signed In USer ---- presa4295
+2019-08-09 10:53:08 INFO  MainMenuLocators:39 - Main Menu -> Home -> Clicked on Home
+2019-08-09 10:53:08 INFO  SignInPageActions:61 - User is Directed to Home
+2019-08-09 10:53:08 INFO  BaseTest:54 - EBAY: [VerifySearch] Before running test method
+2019-08-09 10:53:08 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageAssertions page initializing
+2019-08-09 10:53:08 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-09 10:53:08 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchPageLocators page initializing
+2019-08-09 10:53:09 INFO  LandingPageLocator:63 - Search Text Box Clicked
+2019-08-09 10:53:15 INFO  ItemDetailPageLocators:29 - Search Page-> Entered Search text is Chocolate
+2019-08-09 10:53:16 INFO  BaseTest:60 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Completing Test
+2019-08-09 10:53:17 INFO  BaseTest:66 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Ending Test
+2019-08-09 10:54:56 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 10:54:56 INFO  ExcelReader:34 -  Reading File: src\test\resources\TestData.xlsx
+2019-08-09 10:54:57 INFO  ExcelReader:38 - Reading dataFile completed 
+2019-08-09 10:54:57 INFO  BaseTest:37 - EBAY: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Initializing Suite
+2019-08-09 10:54:57 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 10:54:57 INFO  AndroidDriverUtil:44 - Android Environment is initialised with DesiredCapabilities 
+2019-08-09 10:54:57 INFO  AndroidDriverUtil:45 - [Platform_Name]: null [Platform_Version]: 9 [Device_name]: My MI [UDID]: 4aa88f4 [App_Package]: com.ebay.mobile [App_Activity]: com.ebay.mobile.activities.MainActivity [Appium_URL]: http://0.0.0.0:4723/wd/hub [DATA FILE]: TestData.xlsx 
+2019-08-09 10:55:04 INFO  AndroidDriverUtil:52 - EBAY Application Started 
+2019-08-09 10:55:04 INFO  BaseTest:48 - EBAY: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Starting Test
+2019-08-09 10:55:04 DEBUG EbayBasePage:34 - com.ebay.pages.common.EbayBasePage page initializing
+2019-08-09 10:55:04 INFO  ExcelReader:49 - 2
+2019-08-09 10:55:04 INFO  ExcelReader:51 - 0
+2019-08-09 10:55:04 INFO  ExcelReader:60 - [Email]: p.reiin.saini@gmail.com [Password] test@2019 [UserId] presa4295 [SearchText] chocolate 
+2019-08-09 10:55:04 INFO  BaseTest:54 - EBAY: [verifyLogin_CheckoutFlow] Before running test method
+2019-08-09 10:55:04 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageActions page initializing
+2019-08-09 10:55:04 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageLocators page initializing
+2019-08-09 10:55:04 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-09 10:55:04 DEBUG EbayBasePage:34 - com.ebay.pages.MainMenu.MainMenuLocators page initializing
+2019-08-09 10:55:04 DEBUG EbayBasePage:34 - com.ebay.pages.itemDetailPage.ItemDetailsPageAssertions page initializing
+2019-08-09 10:55:04 DEBUG EbayBasePage:34 - com.ebay.pages.itemDetailPage.ItemDetailPageLocators page initializing
+2019-08-09 10:55:04 DEBUG EbayBasePage:34 - com.ebay.pages.ItemQuantityPage.ItemQuantityPageAssertions page initializing
+2019-08-09 10:55:04 DEBUG EbayBasePage:34 - com.ebay.pages.ItemQuantityPage.ItemQuantityPageLocator page initializing
+2019-08-09 10:55:04 DEBUG EbayBasePage:34 - com.ebay.pages.Checkout.CheckoutPageAssertions page initializing
+2019-08-09 10:55:04 DEBUG EbayBasePage:34 - com.ebay.pages.Checkout.CheckoutPageLocators page initializing
+2019-08-09 10:55:04 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageAssertions page initializing
+2019-08-09 10:55:04 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-09 10:55:04 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchPageLocators page initializing
+2019-08-09 10:55:04 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchResultPageActions page initializing
+2019-08-09 10:55:04 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchResultPageLocators page initializing
+2019-08-09 10:55:04 INFO  LandingPageLocator:44 - landing Page->Clicked on main menu
+2019-08-09 10:55:05 INFO  MainMenuLocators:28 - Main Menu ->Clicked on Sign IN
+2019-08-09 10:55:12 INFO  SignInPageLocators:35 - SignINPage-> email entered p.reiin.saini@gmail.com
+2019-08-09 10:55:17 INFO  SignInPageLocators:40 - SignINPage-> password entered By.id: com.ebay.mobile:id/et_temp
+2019-08-09 10:55:18 INFO  SignInPageLocators:45 - SignINPage-> Clicked on SignIn Button 
+2019-08-09 10:55:18 INFO  SignInPageActions:47 - Sign In button Clicked
+2019-08-09 10:55:18 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 10:55:21 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 10:55:23 INFO  EbayBasePage:49 - true
+2019-08-09 10:55:23 INFO  LandingPageLocator:44 - landing Page->Clicked on main menu
+2019-08-09 10:55:24 INFO  MainMenuLocators:33 - Main Menu -> Signed In USer ---- presa4295
+2019-08-09 10:55:24 INFO  MainMenuLocators:39 - Main Menu -> Home -> Clicked on Home
+2019-08-09 10:55:24 INFO  SignInPageActions:61 - User is Directed to Home
+2019-08-09 10:55:26 INFO  LandingPageLocator:63 - Search Text Box Clicked
+2019-08-09 10:55:31 INFO  ItemDetailPageLocators:29 - Search Page-> Entered Search text is chocolate
+2019-08-09 10:55:32 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 10:55:34 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 10:55:34 INFO  EbayBasePage:49 - true
+2019-08-09 10:55:34 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 10:55:34 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 10:55:34 INFO  EbayBasePage:49 - true
+2019-08-09 10:55:34 INFO  SearchResultPageLocators:33 - Search Result Page is loaded
+2019-08-09 10:55:35 INFO  SearchResultPageLocators:59 - Second product from the list is Selected 
+2019-08-09 10:55:35 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 10:55:38 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 10:55:41 INFO  EbayBasePage:49 - true
+2019-08-09 10:55:41 INFO  ItemDetailPageLocators:49 - Buy Now Button is present true
+2019-08-09 10:55:41 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 10:55:41 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 10:55:41 INFO  EbayBasePage:49 - true
+2019-08-09 10:55:41 INFO  ItemDetailPageLocators:49 - Buy Now Button is present true
+2019-08-09 10:55:41 INFO  ItemDetailsPageAssertions:28 - ItemDetailsPage is loaded Successfully
+2019-08-09 10:55:41 INFO  ItemDetailPageLocators:32 - ItemName is set to  M&M's Peanut Chocolate Party Size Bucket 575g Lollies
+2019-08-09 10:55:41 INFO  ItemDetailPageLocators:39 - ItemPrice is set to  AU $10.40
+2019-08-09 10:55:41 INFO  ItemDetailsPageAssertions:42 - Selected Product Details are [Item Name]: M&M's Peanut Chocolate Party Size Bucket 575g Lollies [Item Price]: AU $10.40 
+2019-08-09 10:55:41 INFO  ItemDetailsPageAssertions:43 - Selected Product Name are M&M's Peanut Chocolate Party Size Bucket 575g Lollies
+2019-08-09 10:55:41 INFO  ItemDetailsPageAssertions:44 - Selected Product Price are AU $10.40
+2019-08-09 10:55:41 INFO  ItemDetailPageLocators:56 - Clicked on Buy Now Button true
+2019-08-09 10:55:41 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 10:55:42 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 10:55:43 INFO  EbayBasePage:49 - true
+2019-08-09 10:55:43 INFO  ItemQuantityPageLocator:26 - item Enter Quantity page is Loaded and Page Titile isEnter quantity
+2019-08-09 10:55:43 INFO  ItemQuantityPageAssertions:25 - Enter Quantity page is loaded successgully 
+2019-08-09 10:55:43 INFO  ItemQuantityPageLocator:32 - Clicked on Review Button 
+2019-08-09 10:55:43 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 10:55:44 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 10:55:44 INFO  EbayBasePage:49 - true
+2019-08-09 10:55:44 INFO  CheckoutPageLocators:44 - Checkout Page is Loaded true
+2019-08-09 10:55:44 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 10:55:44 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 10:55:44 INFO  EbayBasePage:49 - true
+2019-08-09 10:55:44 INFO  CheckoutPageLocators:44 - Checkout Page is Loaded true
+2019-08-09 10:55:44 INFO  CheckoutPageAssertions:26 - Checkout page is Loaded Successfully
+2019-08-09 10:55:49 INFO  CheckoutPageLocators:31 - ItemName is set to  M&M's Peanut Chocolate Party Size Bucket 575g Lollies
+2019-08-09 10:55:49 INFO  CheckoutPageLocators:38 - ItemPrice is set to  AU $10.40
+2019-08-09 10:55:49 INFO  CheckoutPageAssertions:35 - Selected Product Details are [Item Name]: M&M's Peanut Chocolate Party Size Bucket 575g Lollies [Item Price]: AU $10.40 
+2019-08-09 10:55:49 INFO  CheckoutPageAssertions:36 - Selected Product Name are M&M's Peanut Chocolate Party Size Bucket 575g Lollies
+2019-08-09 10:55:49 INFO  CheckoutPageAssertions:37 - Selected Product Price are AU $10.40
+2019-08-09 10:55:49 INFO  verifyLoginAddtoCartCheckoutFlow:51 - Product details in Checkout Page is same as available in Item-Detail-Page 
+2019-08-09 10:55:49 INFO  BaseTest:60 - EBAY: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Completing Test
+2019-08-09 10:55:51 INFO  BaseTest:66 - EBAY: [com.ebay.tests.verifyLoginAddtoCartCheckoutFlow] Ending Test
+2019-08-09 11:01:19 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 11:01:19 INFO  ExcelReader:34 -  Reading File: src\test\resources\TestData.xlsx
+2019-08-09 11:01:20 INFO  ExcelReader:38 - Reading dataFile completed 
+2019-08-09 11:01:20 INFO  BaseTest:37 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Initializing Suite
+2019-08-09 11:01:20 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 11:01:20 INFO  AndroidDriverUtil:44 - Android Environment is initialised with DesiredCapabilities 
+2019-08-09 11:01:20 INFO  AndroidDriverUtil:45 - [Platform_Name]: null [Platform_Version]: 9 [Device_name]: My MI [UDID]: 4aa88f4 [App_Package]: com.ebay.mobile [App_Activity]: com.ebay.mobile.activities.MainActivity [Appium_URL]: http://0.0.0.0:4723/wd/hub [DATA FILE]: TestData.xlsx 
+2019-08-09 11:01:27 INFO  AndroidDriverUtil:52 - EBAY Application Started 
+2019-08-09 11:01:27 INFO  BaseTest:48 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Starting Test
+2019-08-09 11:01:27 DEBUG EbayBasePage:34 - com.ebay.pages.common.EbayBasePage page initializing
+2019-08-09 11:01:27 INFO  ExcelReader:49 - 2
+2019-08-09 11:01:27 INFO  ExcelReader:51 - 0
+2019-08-09 11:01:27 INFO  ExcelReader:60 - [Email]: p.reiin.saini@gmail.com [Password] test@2019 [UserId] presa4295 [SearchText] chocolate 
+2019-08-09 11:01:27 INFO  BaseTest:54 - EBAY: [VerifyLogin] Before running test method
+2019-08-09 11:01:27 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageActions page initializing
+2019-08-09 11:01:27 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageLocators page initializing
+2019-08-09 11:01:27 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-09 11:01:27 DEBUG EbayBasePage:34 - com.ebay.pages.MainMenu.MainMenuLocators page initializing
+2019-08-09 11:01:28 INFO  LandingPageLocator:44 - landing Page->Clicked on main menu
+2019-08-09 11:01:29 INFO  MainMenuLocators:28 - Main Menu ->Clicked on Sign IN
+2019-08-09 11:01:36 INFO  SignInPageLocators:35 - SignINPage-> email entered p.reiin.saini@gmail.com
+2019-08-09 11:01:41 INFO  SignInPageLocators:40 - SignINPage-> password entered By.id: com.ebay.mobile:id/et_temp
+2019-08-09 11:01:42 INFO  SignInPageLocators:45 - SignINPage-> Clicked on SignIn Button 
+2019-08-09 11:01:42 INFO  SignInPageActions:47 - Sign In button Clicked
+2019-08-09 11:01:42 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 11:01:47 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 11:01:47 INFO  EbayBasePage:49 - true
+2019-08-09 11:01:47 INFO  LandingPageLocator:44 - landing Page->Clicked on main menu
+2019-08-09 11:01:50 INFO  MainMenuLocators:33 - Main Menu -> Signed In USer ---- presa4295
+2019-08-09 11:01:50 INFO  MainMenuLocators:39 - Main Menu -> Home -> Clicked on Home
+2019-08-09 11:01:50 INFO  SignInPageActions:61 - User is Directed to Home
+2019-08-09 11:01:50 INFO  BaseTest:54 - EBAY: [VerifySearch] Before running test method
+2019-08-09 11:01:50 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageAssertions page initializing
+2019-08-09 11:01:50 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-09 11:01:50 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchPageLocators page initializing
+2019-08-09 11:01:50 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchResultPageActions page initializing
+2019-08-09 11:01:50 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchResultPageLocators page initializing
+2019-08-09 11:01:51 INFO  LandingPageLocator:63 - Search Text Box Clicked
+2019-08-09 11:01:57 INFO  ItemDetailPageLocators:29 - Search Page-> Entered Search text is Chocolate
+2019-08-09 11:01:58 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 11:01:59 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 11:02:00 INFO  EbayBasePage:49 - true
+2019-08-09 11:02:00 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 11:02:00 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 11:02:00 INFO  EbayBasePage:49 - true
+2019-08-09 11:02:00 INFO  SearchResultPageLocators:47 -  Search page is Loaded with Result count5,273 Results
+2019-08-09 11:02:00 INFO  SearchResultPageLocators:33 - Search Result Page is loaded
+2019-08-09 11:02:00 INFO  BaseTest:54 - EBAY: [verifyCheckout] Before running test method
+2019-08-09 11:02:00 DEBUG EbayBasePage:34 - com.ebay.pages.itemDetailPage.ItemDetailsPageAssertions page initializing
+2019-08-09 11:02:00 DEBUG EbayBasePage:34 - com.ebay.pages.itemDetailPage.ItemDetailPageLocators page initializing
+2019-08-09 11:02:00 DEBUG EbayBasePage:34 - com.ebay.pages.ItemQuantityPage.ItemQuantityPageAssertions page initializing
+2019-08-09 11:02:00 DEBUG EbayBasePage:34 - com.ebay.pages.ItemQuantityPage.ItemQuantityPageLocator page initializing
+2019-08-09 11:02:00 DEBUG EbayBasePage:34 - com.ebay.pages.Checkout.CheckoutPageAssertions page initializing
+2019-08-09 11:02:00 DEBUG EbayBasePage:34 - com.ebay.pages.Checkout.CheckoutPageLocators page initializing
+2019-08-09 11:02:01 INFO  SearchResultPageLocators:59 - Second product from the list is Selected 
+2019-08-09 11:02:01 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 11:02:04 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 11:02:08 INFO  EbayBasePage:49 - true
+2019-08-09 11:02:08 INFO  ItemDetailPageLocators:49 - Buy Now Button is present true
+2019-08-09 11:02:08 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 11:02:08 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 11:02:08 INFO  EbayBasePage:49 - true
+2019-08-09 11:02:08 INFO  ItemDetailPageLocators:49 - Buy Now Button is present true
+2019-08-09 11:02:08 INFO  ItemDetailsPageAssertions:28 - ItemDetailsPage is loaded Successfully
+2019-08-09 11:02:08 INFO  ItemDetailPageLocators:32 - ItemName is set to  M&M's Peanut Chocolate Party Size Bucket 575g Lollies
+2019-08-09 11:02:08 INFO  ItemDetailPageLocators:39 - ItemPrice is set to  AU $10.40
+2019-08-09 11:02:08 INFO  ItemDetailsPageAssertions:42 - Selected Product Details are [Item Name]: M&M's Peanut Chocolate Party Size Bucket 575g Lollies [Item Price]: AU $10.40 
+2019-08-09 11:02:08 INFO  ItemDetailsPageAssertions:43 - Selected Product Name are M&M's Peanut Chocolate Party Size Bucket 575g Lollies
+2019-08-09 11:02:08 INFO  ItemDetailsPageAssertions:44 - Selected Product Price are AU $10.40
+2019-08-09 11:02:09 INFO  ItemDetailPageLocators:56 - Clicked on Buy Now Button true
+2019-08-09 11:02:09 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 11:02:10 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 11:02:10 INFO  EbayBasePage:49 - true
+2019-08-09 11:02:10 INFO  ItemQuantityPageLocator:26 - item Enter Quantity page is Loaded and Page Titile isEnter quantity
+2019-08-09 11:02:10 INFO  ItemQuantityPageAssertions:25 - Enter Quantity page is loaded successgully 
+2019-08-09 11:02:11 INFO  ItemQuantityPageLocator:32 - Clicked on Review Button 
+2019-08-09 11:02:11 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 11:02:11 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 11:02:11 INFO  EbayBasePage:49 - true
+2019-08-09 11:02:11 INFO  CheckoutPageLocators:44 - Checkout Page is Loaded true
+2019-08-09 11:02:11 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 11:02:11 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 11:02:12 INFO  EbayBasePage:49 - true
+2019-08-09 11:02:12 INFO  CheckoutPageLocators:44 - Checkout Page is Loaded true
+2019-08-09 11:02:12 INFO  CheckoutPageAssertions:26 - Checkout page is Loaded Successfully
+2019-08-09 11:02:22 INFO  CheckoutPageLocators:31 - ItemName is set to  M&M's Peanut Chocolate Party Size Bucket 575g Lollies
+2019-08-09 11:02:22 INFO  CheckoutPageLocators:38 - ItemPrice is set to  AU $10.40
+2019-08-09 11:02:22 INFO  CheckoutPageAssertions:35 - Selected Product Details are [Item Name]: M&M's Peanut Chocolate Party Size Bucket 575g Lollies [Item Price]: AU $10.40 
+2019-08-09 11:02:22 INFO  CheckoutPageAssertions:36 - Selected Product Name are M&M's Peanut Chocolate Party Size Bucket 575g Lollies
+2019-08-09 11:02:22 INFO  CheckoutPageAssertions:37 - Selected Product Price are AU $10.40
+2019-08-09 11:02:22 INFO  VerifyLogin_Search_Checkout_Tests:66 - Product details in Checkout Page is same as available in Item-Detail-Page 
+2019-08-09 11:02:22 INFO  BaseTest:60 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Completing Test
+2019-08-09 11:02:23 INFO  BaseTest:66 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Ending Test
+2019-08-09 11:11:03 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 11:11:03 INFO  ExcelReader:34 -  Reading File: src\test\resources\TestData.xlsx
+2019-08-09 11:11:04 INFO  ExcelReader:38 - Reading dataFile completed 
+2019-08-09 11:11:04 INFO  BaseTest:37 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Initializing Suite
+2019-08-09 11:11:04 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 11:11:04 INFO  AndroidDriverUtil:44 - Android Environment is initialised with DesiredCapabilities 
+2019-08-09 11:11:04 INFO  AndroidDriverUtil:45 - [Platform_Name]: null [Platform_Version]: 9 [Device_name]: My MI [UDID]: 4aa88f4 [App_Package]: com.ebay.mobile [App_Activity]: com.ebay.mobile.activities.MainActivity [Appium_URL]: http://0.0.0.0:4723/wd/hub [DATA FILE]: TestData.xlsx 
+2019-08-09 11:11:10 INFO  AndroidDriverUtil:52 - EBAY Application Started 
+2019-08-09 11:11:10 INFO  BaseTest:48 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Starting Test
+2019-08-09 11:11:10 DEBUG EbayBasePage:34 - com.ebay.pages.common.EbayBasePage page initializing
+2019-08-09 11:11:10 INFO  BaseTest:60 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Completing Test
+2019-08-09 11:11:11 INFO  BaseTest:66 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Ending Test
+2019-08-09 11:12:10 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 11:12:10 INFO  ExcelReader:34 -  Reading File: src\test\resources\TestData.xlsx
+2019-08-09 11:12:11 INFO  ExcelReader:38 - Reading dataFile completed 
+2019-08-09 11:12:11 INFO  BaseTest:37 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Initializing Suite
+2019-08-09 11:12:11 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 11:12:11 INFO  AndroidDriverUtil:44 - Android Environment is initialised with DesiredCapabilities 
+2019-08-09 11:12:11 INFO  AndroidDriverUtil:45 - [Platform_Name]: null [Platform_Version]: 9 [Device_name]: My MI [UDID]: 4aa88f4 [App_Package]: com.ebay.mobile [App_Activity]: com.ebay.mobile.activities.MainActivity [Appium_URL]: http://0.0.0.0:4723/wd/hub [DATA FILE]: TestData.xlsx 
+2019-08-09 11:12:16 INFO  AndroidDriverUtil:52 - EBAY Application Started 
+2019-08-09 11:12:16 INFO  BaseTest:48 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Starting Test
+2019-08-09 11:12:16 DEBUG EbayBasePage:34 - com.ebay.pages.common.EbayBasePage page initializing
+2019-08-09 11:12:17 INFO  BaseTest:60 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Completing Test
+2019-08-09 11:12:17 INFO  BaseTest:66 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Ending Test
+2019-08-09 11:14:12 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 11:14:12 INFO  ExcelReader:34 -  Reading File: src\test\resources\TestData.xlsx
+2019-08-09 11:14:13 INFO  ExcelReader:38 - Reading dataFile completed 
+2019-08-09 11:14:13 INFO  BaseTest:37 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Initializing Suite
+2019-08-09 11:14:13 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 11:14:13 INFO  AndroidDriverUtil:44 - Android Environment is initialised with DesiredCapabilities 
+2019-08-09 11:14:13 INFO  AndroidDriverUtil:45 - [Platform_Name]: null [Platform_Version]: 9 [Device_name]: My MI [UDID]: 4aa88f4 [App_Package]: com.ebay.mobile [App_Activity]: com.ebay.mobile.activities.MainActivity [Appium_URL]: http://0.0.0.0:4723/wd/hub [DATA FILE]: TestData.xlsx 
+2019-08-09 11:14:20 INFO  AndroidDriverUtil:52 - EBAY Application Started 
+2019-08-09 11:14:20 INFO  BaseTest:48 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Starting Test
+2019-08-09 11:14:20 DEBUG EbayBasePage:34 - com.ebay.pages.common.EbayBasePage page initializing
+2019-08-09 11:14:20 INFO  ExcelReader:49 - 2
+2019-08-09 11:14:20 INFO  ExcelReader:51 - 0
+2019-08-09 11:14:20 INFO  ExcelReader:60 - [Email]: p.reiin.saini@gmail.com [Password] test@2019 [UserId] presa4295 [SearchText] chocolate 
+2019-08-09 11:14:20 INFO  BaseTest:54 - EBAY: [VerifyLogin] Before running test method
+2019-08-09 11:14:20 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageActions page initializing
+2019-08-09 11:14:20 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageLocators page initializing
+2019-08-09 11:14:20 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-09 11:14:20 DEBUG EbayBasePage:34 - com.ebay.pages.MainMenu.MainMenuLocators page initializing
+2019-08-09 11:14:20 INFO  LandingPageLocator:44 - landing Page->Clicked on main menu
+2019-08-09 11:14:22 INFO  MainMenuLocators:28 - Main Menu ->Clicked on Sign IN
+2019-08-09 11:14:28 INFO  SignInPageLocators:35 - SignINPage-> email entered p.reiin.saini@gmail.com
+2019-08-09 11:14:34 INFO  SignInPageLocators:40 - SignINPage-> password entered By.id: com.ebay.mobile:id/et_temp
+2019-08-09 11:14:35 INFO  SignInPageLocators:45 - SignINPage-> Clicked on SignIn Button 
+2019-08-09 11:14:35 INFO  SignInPageActions:47 - Sign In button Clicked
+2019-08-09 11:14:35 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 11:14:38 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 11:14:39 INFO  EbayBasePage:49 - true
+2019-08-09 11:14:39 INFO  LandingPageLocator:44 - landing Page->Clicked on main menu
+2019-08-09 11:14:40 INFO  MainMenuLocators:33 - Main Menu -> Signed In USer ---- presa4295
+2019-08-09 11:14:40 INFO  MainMenuLocators:39 - Main Menu -> Home -> Clicked on Home
+2019-08-09 11:14:40 INFO  SignInPageActions:61 - User is Directed to Home
+2019-08-09 11:14:40 INFO  BaseTest:54 - EBAY: [VerifySearch] Before running test method
+2019-08-09 11:14:40 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageAssertions page initializing
+2019-08-09 11:14:40 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-09 11:14:40 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchPageLocators page initializing
+2019-08-09 11:14:40 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchResultPageActions page initializing
+2019-08-09 11:14:40 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchResultPageLocators page initializing
+2019-08-09 11:14:41 INFO  LandingPageLocator:63 - Search Text Box Clicked
+2019-08-09 11:14:48 INFO  ItemDetailPageLocators:29 - Search Page-> Entered Search text is Chocolate
+2019-08-09 11:14:48 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 11:14:56 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 11:14:56 INFO  EbayBasePage:49 - true
+2019-08-09 11:14:56 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 11:14:57 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 11:14:57 INFO  EbayBasePage:49 - true
+2019-08-09 11:14:57 INFO  SearchResultPageLocators:47 -  Search page is Loaded with Result count5,276 Results
+2019-08-09 11:14:57 INFO  SearchResultPageLocators:33 - Search Result Page is loaded
+2019-08-09 11:14:57 INFO  BaseTest:54 - EBAY: [verifyCheckout] Before running test method
+2019-08-09 11:14:57 DEBUG EbayBasePage:34 - com.ebay.pages.itemDetailPage.ItemDetailsPageAssertions page initializing
+2019-08-09 11:14:57 DEBUG EbayBasePage:34 - com.ebay.pages.itemDetailPage.ItemDetailPageLocators page initializing
+2019-08-09 11:14:57 DEBUG EbayBasePage:34 - com.ebay.pages.ItemQuantityPage.ItemQuantityPageAssertions page initializing
+2019-08-09 11:14:57 DEBUG EbayBasePage:34 - com.ebay.pages.ItemQuantityPage.ItemQuantityPageLocator page initializing
+2019-08-09 11:14:57 DEBUG EbayBasePage:34 - com.ebay.pages.Checkout.CheckoutPageAssertions page initializing
+2019-08-09 11:14:57 DEBUG EbayBasePage:34 - com.ebay.pages.Checkout.CheckoutPageLocators page initializing
+2019-08-09 11:14:58 INFO  SearchResultPageLocators:59 - Second product from the list is Selected 
+2019-08-09 11:14:58 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 11:15:02 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 11:15:04 INFO  EbayBasePage:49 - true
+2019-08-09 11:15:04 INFO  ItemDetailPageLocators:49 - Buy Now Button is present true
+2019-08-09 11:15:04 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 11:15:04 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 11:15:05 INFO  EbayBasePage:49 - true
+2019-08-09 11:15:05 INFO  ItemDetailPageLocators:49 - Buy Now Button is present true
+2019-08-09 11:15:05 INFO  ItemDetailsPageAssertions:28 - ItemDetailsPage is loaded Successfully
+2019-08-09 11:15:05 INFO  ItemDetailPageLocators:32 - ItemName is set to  M&M's Peanut Chocolate Party Size Bucket 575g Lollies
+2019-08-09 11:15:05 INFO  ItemDetailPageLocators:39 - ItemPrice is set to  AU $10.40
+2019-08-09 11:15:05 INFO  ItemDetailsPageAssertions:42 - Selected Product Details are [Item Name]: M&M's Peanut Chocolate Party Size Bucket 575g Lollies [Item Price]: AU $10.40 
+2019-08-09 11:15:05 INFO  ItemDetailsPageAssertions:43 - Selected Product Name are M&M's Peanut Chocolate Party Size Bucket 575g Lollies
+2019-08-09 11:15:05 INFO  ItemDetailsPageAssertions:44 - Selected Product Price are AU $10.40
+2019-08-09 11:15:05 INFO  ItemDetailPageLocators:56 - Clicked on Buy Now Button true
+2019-08-09 11:15:05 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 11:15:06 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 11:15:06 INFO  EbayBasePage:49 - true
+2019-08-09 11:15:06 INFO  ItemQuantityPageLocator:26 - item Enter Quantity page is Loaded and Page Titile isEnter quantity
+2019-08-09 11:15:06 INFO  ItemQuantityPageAssertions:25 - Enter Quantity page is loaded successgully 
+2019-08-09 11:15:07 INFO  ItemQuantityPageLocator:32 - Clicked on Review Button 
+2019-08-09 11:15:07 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 11:15:07 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 11:15:08 INFO  EbayBasePage:49 - true
+2019-08-09 11:15:08 INFO  CheckoutPageLocators:44 - Checkout Page is Loaded true
+2019-08-09 11:15:08 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 11:15:08 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 11:15:08 INFO  EbayBasePage:49 - true
+2019-08-09 11:15:08 INFO  CheckoutPageLocators:44 - Checkout Page is Loaded true
+2019-08-09 11:15:08 INFO  CheckoutPageAssertions:26 - Checkout page is Loaded Successfully
+2019-08-09 11:15:12 INFO  CheckoutPageLocators:31 - ItemName is set to  M&M's Peanut Chocolate Party Size Bucket 575g Lollies
+2019-08-09 11:15:12 INFO  CheckoutPageLocators:38 - ItemPrice is set to  AU $10.40
+2019-08-09 11:15:12 INFO  CheckoutPageAssertions:35 - Selected Product Details are [Item Name]: M&M's Peanut Chocolate Party Size Bucket 575g Lollies [Item Price]: AU $10.40 
+2019-08-09 11:15:12 INFO  CheckoutPageAssertions:36 - Selected Product Name are M&M's Peanut Chocolate Party Size Bucket 575g Lollies
+2019-08-09 11:15:12 INFO  CheckoutPageAssertions:37 - Selected Product Price are AU $10.40
+2019-08-09 11:15:12 INFO  VerifyLogin_Search_Checkout_Tests:67 - Product details in Checkout Page is same as available in Item-Detail-Page 
+2019-08-09 11:15:12 INFO  BaseTest:60 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Completing Test
+2019-08-09 11:15:13 INFO  BaseTest:66 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Ending Test
+2019-08-09 11:26:42 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 11:26:42 INFO  ExcelReader:34 -  Reading File: src\test\resources\TestData.xlsx
+2019-08-09 11:26:44 INFO  ExcelReader:38 - Reading dataFile completed 
+2019-08-09 11:28:25 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 11:28:25 INFO  ExcelReader:34 -  Reading File: src\test\resources\TestData.xlsx
+2019-08-09 11:28:27 INFO  ExcelReader:38 - Reading dataFile completed 
+2019-08-09 11:28:27 INFO  BaseTest:37 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Initializing Suite
+2019-08-09 11:28:27 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 11:28:28 INFO  AndroidDriverUtil:44 - Android Environment is initialised with DesiredCapabilities 
+2019-08-09 11:28:28 INFO  AndroidDriverUtil:45 - [Platform_Name]: null [Platform_Version]: 9 [Device_name]: My MI [UDID]: 4aa88f4 [App_Package]: com.ebay.mobile [App_Activity]: com.ebay.mobile.activities.MainActivity [Appium_URL]: http://0.0.0.0:4723/wd/hub [DATA FILE]: TestData.xlsx 
+2019-08-09 11:28:37 INFO  AndroidDriverUtil:52 - EBAY Application Started 
+2019-08-09 11:28:37 INFO  BaseTest:48 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Starting Test
+2019-08-09 11:28:37 DEBUG EbayBasePage:34 - com.ebay.pages.common.EbayBasePage page initializing
+2019-08-09 11:28:37 INFO  BaseTest:54 - EBAY: [verifyCheckout] Before running test method
+2019-08-09 11:28:38 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageActions page initializing
+2019-08-09 11:28:38 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageLocators page initializing
+2019-08-09 11:28:38 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-09 11:28:38 DEBUG EbayBasePage:34 - com.ebay.pages.MainMenu.MainMenuLocators page initializing
+2019-08-09 11:28:38 INFO  LandingPageLocator:44 - landing Page->Clicked on main menu
+2019-08-09 11:28:40 INFO  MainMenuLocators:28 - Main Menu ->Clicked on Sign IN
+2019-08-09 11:28:41 INFO  BaseTest:60 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Completing Test
+2019-08-09 11:28:42 INFO  BaseTest:66 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Ending Test
+2019-08-09 11:34:14 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 11:34:14 INFO  ExcelReader:34 -  Reading File: src\test\resources\TestData.xlsx
+2019-08-09 11:34:15 INFO  ExcelReader:38 - Reading dataFile completed 
+2019-08-09 11:34:15 INFO  BaseTest:37 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Initializing Suite
+2019-08-09 11:34:15 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 11:34:15 INFO  AndroidDriverUtil:44 - Android Environment is initialised with DesiredCapabilities 
+2019-08-09 11:34:15 INFO  AndroidDriverUtil:45 - [Platform_Name]: null [Platform_Version]: 9 [Device_name]: My MI [UDID]: 4aa88f4 [App_Package]: com.ebay.mobile [App_Activity]: com.ebay.mobile.activities.MainActivity [Appium_URL]: http://0.0.0.0:4723/wd/hub [DATA FILE]: TestData.xlsx 
+2019-08-09 11:34:21 INFO  AndroidDriverUtil:52 - EBAY Application Started 
+2019-08-09 11:34:21 INFO  BaseTest:48 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Starting Test
+2019-08-09 11:34:21 DEBUG EbayBasePage:34 - com.ebay.pages.common.EbayBasePage page initializing
+2019-08-09 11:34:21 INFO  BaseTest:54 - EBAY: [verifyCheckout] Before running test method
+2019-08-09 11:34:21 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageActions page initializing
+2019-08-09 11:34:21 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageLocators page initializing
+2019-08-09 11:34:21 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-09 11:34:21 DEBUG EbayBasePage:34 - com.ebay.pages.MainMenu.MainMenuLocators page initializing
+2019-08-09 11:34:22 INFO  LandingPageLocator:44 - landing Page->Clicked on main menu
+2019-08-09 11:34:23 INFO  MainMenuLocators:28 - Main Menu ->Clicked on Sign IN
+2019-08-09 11:34:29 INFO  SignInPageLocators:35 - SignINPage-> email entered p.reiin.saini@gmail.com
+2019-08-09 11:34:35 INFO  SignInPageLocators:40 - SignINPage-> password entered By.id: com.ebay.mobile:id/et_temp
+2019-08-09 11:34:36 INFO  SignInPageLocators:45 - SignINPage-> Clicked on SignIn Button 
+2019-08-09 11:34:36 INFO  SignInPageActions:47 - Sign In button Clicked
+2019-08-09 11:34:36 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 11:34:39 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 11:34:40 INFO  EbayBasePage:49 - true
+2019-08-09 11:34:40 INFO  LandingPageLocator:44 - landing Page->Clicked on main menu
+2019-08-09 11:34:42 INFO  MainMenuLocators:33 - Main Menu -> Signed In USer ---- presa4295
+2019-08-09 11:34:43 INFO  MainMenuLocators:39 - Main Menu -> Home -> Clicked on Home
+2019-08-09 11:34:43 INFO  SignInPageActions:61 - User is Directed to Home
+2019-08-09 11:34:43 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageAssertions page initializing
+2019-08-09 11:34:43 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-09 11:34:43 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchPageLocators page initializing
+2019-08-09 11:34:43 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchResultPageActions page initializing
+2019-08-09 11:34:43 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchResultPageLocators page initializing
+2019-08-09 11:34:44 INFO  LandingPageLocator:63 - Search Text Box Clicked
+2019-08-09 11:34:49 INFO  ItemDetailPageLocators:29 - Search Page-> Entered Search text is Chocolate
+2019-08-09 11:34:50 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 11:34:52 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 11:34:52 INFO  EbayBasePage:49 - true
+2019-08-09 11:34:52 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 11:34:53 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 11:34:53 INFO  EbayBasePage:49 - true
+2019-08-09 11:34:53 INFO  SearchResultPageLocators:47 -  Search page is Loaded with Result count5,273 Results
+2019-08-09 11:34:53 INFO  SearchResultPageLocators:33 - Search Result Page is loaded
+2019-08-09 11:34:53 DEBUG EbayBasePage:34 - com.ebay.pages.itemDetailPage.ItemDetailsPageAssertions page initializing
+2019-08-09 11:34:53 DEBUG EbayBasePage:34 - com.ebay.pages.itemDetailPage.ItemDetailPageLocators page initializing
+2019-08-09 11:34:53 DEBUG EbayBasePage:34 - com.ebay.pages.ItemQuantityPage.ItemQuantityPageAssertions page initializing
+2019-08-09 11:34:53 DEBUG EbayBasePage:34 - com.ebay.pages.ItemQuantityPage.ItemQuantityPageLocator page initializing
+2019-08-09 11:34:53 DEBUG EbayBasePage:34 - com.ebay.pages.Checkout.CheckoutPageAssertions page initializing
+2019-08-09 11:34:53 DEBUG EbayBasePage:34 - com.ebay.pages.Checkout.CheckoutPageLocators page initializing
+2019-08-09 11:34:53 INFO  SearchResultPageLocators:59 - Second product from the list is Selected 
+2019-08-09 11:34:53 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 11:34:57 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 11:34:59 INFO  EbayBasePage:49 - true
+2019-08-09 11:34:59 INFO  ItemDetailPageLocators:49 - Buy Now Button is present true
+2019-08-09 11:34:59 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 11:35:00 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 11:35:00 INFO  EbayBasePage:49 - true
+2019-08-09 11:35:00 INFO  ItemDetailPageLocators:49 - Buy Now Button is present true
+2019-08-09 11:35:00 INFO  ItemDetailsPageAssertions:28 - ItemDetailsPage is loaded Successfully
+2019-08-09 11:35:00 INFO  ItemDetailPageLocators:32 - ItemName is set to  M&M's Peanut Chocolate Party Size Bucket 575g Lollies
+2019-08-09 11:35:00 INFO  ItemDetailPageLocators:39 - ItemPrice is set to  AU $10.40
+2019-08-09 11:35:00 INFO  ItemDetailsPageAssertions:42 - Selected Product Details are [Item Name]: M&M's Peanut Chocolate Party Size Bucket 575g Lollies [Item Price]: AU $10.40 
+2019-08-09 11:35:00 INFO  ItemDetailsPageAssertions:43 - Selected Product Name are M&M's Peanut Chocolate Party Size Bucket 575g Lollies
+2019-08-09 11:35:00 INFO  ItemDetailsPageAssertions:44 - Selected Product Price are AU $10.40
+2019-08-09 11:35:00 INFO  ItemDetailPageLocators:56 - Clicked on Buy Now Button true
+2019-08-09 11:35:00 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 11:35:01 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 11:35:01 INFO  EbayBasePage:49 - true
+2019-08-09 11:35:01 INFO  ItemQuantityPageLocator:26 - item Enter Quantity page is Loaded and Page Titile isEnter quantity
+2019-08-09 11:35:01 INFO  ItemQuantityPageAssertions:25 - Enter Quantity page is loaded successgully 
+2019-08-09 11:35:02 INFO  ItemQuantityPageLocator:32 - Clicked on Review Button 
+2019-08-09 11:35:02 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 11:35:03 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 11:35:03 INFO  EbayBasePage:49 - true
+2019-08-09 11:35:03 INFO  CheckoutPageLocators:44 - Checkout Page is Loaded true
+2019-08-09 11:35:03 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 11:35:03 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 11:35:03 INFO  EbayBasePage:49 - true
+2019-08-09 11:35:03 INFO  CheckoutPageLocators:44 - Checkout Page is Loaded true
+2019-08-09 11:35:03 INFO  CheckoutPageAssertions:26 - Checkout page is Loaded Successfully
+2019-08-09 11:35:12 INFO  CheckoutPageLocators:31 - ItemName is set to  M&M's Peanut Chocolate Party Size Bucket 575g Lollies
+2019-08-09 11:35:12 INFO  CheckoutPageLocators:38 - ItemPrice is set to  AU $10.40
+2019-08-09 11:35:12 INFO  CheckoutPageAssertions:35 - Selected Product Details are [Item Name]: M&M's Peanut Chocolate Party Size Bucket 575g Lollies [Item Price]: AU $10.40 
+2019-08-09 11:35:12 INFO  CheckoutPageAssertions:36 - Selected Product Name are M&M's Peanut Chocolate Party Size Bucket 575g Lollies
+2019-08-09 11:35:12 INFO  CheckoutPageAssertions:37 - Selected Product Price are AU $10.40
+2019-08-09 11:35:12 INFO  VerifyLogin_Search_Checkout_Tests:72 - Product details in Checkout Page is same as available in Item-Detail-Page 
+2019-08-09 11:35:12 INFO  BaseTest:60 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Completing Test
+2019-08-09 11:35:14 INFO  BaseTest:66 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Ending Test
+2019-08-09 11:55:08 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 11:55:08 INFO  ExcelReader:34 -  Reading File: src\test\resources\TestData.xlsx
+2019-08-09 11:55:09 INFO  ExcelReader:38 - Reading dataFile completed 
+2019-08-09 11:55:10 INFO  BaseTest:37 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Initializing Suite
+2019-08-09 11:55:10 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 11:55:10 INFO  AndroidDriverUtil:44 - Android Environment is initialised with DesiredCapabilities 
+2019-08-09 11:55:10 INFO  AndroidDriverUtil:45 - [Platform_Name]: null [Platform_Version]: 9 [Device_name]: My MI [UDID]: 4aa88f4 [App_Package]: com.ebay.mobile [App_Activity]: com.ebay.mobile.activities.MainActivity [Appium_URL]: http://0.0.0.0:4723/wd/hub [DATA FILE]: TestData.xlsx 
+2019-08-09 11:55:11 ERROR AndroidDriverUtil:56 - Error while loading Ebay Application: 
+org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Device 4aa88f4 was not in the list of connected devices
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-N0QVKIP8TVK', ip: '169.254.215.167', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Device 4aa88f4 was not in the list of connected devices
+    at getResponseForW3CError (C:\Program Files\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:826:9)
+    at asyncHandler (C:\Program Files\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:447:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-N0QVKIP8TVK', ip: '169.254.215.167', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:84)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:94)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:95)
+	at com.ebay.common.utils.AndroidDriverUtil.startApp(AndroidDriverUtil.java:51)
+	at com.ebay.tests.BaseTest.initializeSuite(BaseTest.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	... 34 more
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Device 4aa88f4 was not in the list of connected devices
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-N0QVKIP8TVK', ip: '169.254.215.167', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Device 4aa88f4 was not in the list of connected devices
+    at getResponseForW3CError (C:\Program Files\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:826:9)
+    at asyncHandler (C:\Program Files\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:447:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	... 39 more
+2019-08-09 11:55:11 INFO  BaseTest:48 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Starting Test
+2019-08-09 11:55:11 DEBUG EbayBasePage:34 - com.ebay.pages.common.EbayBasePage page initializing
+2019-08-09 11:55:11 INFO  ExcelReader:49 - 2
+2019-08-09 11:55:11 INFO  ExcelReader:51 - 0
+2019-08-09 11:55:11 INFO  ExcelReader:60 - [Email]: p.reiin.saini@gmail.com [Password] test@2019 [UserId] presa4295 [SearchText] chocolate 
+2019-08-09 11:55:11 INFO  BaseTest:54 - EBAY: [verifyCheckout] Before running test method
+2019-08-09 11:55:11 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageActions page initializing
+2019-08-09 11:55:11 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageLocators page initializing
+2019-08-09 11:55:11 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-09 11:55:11 DEBUG EbayBasePage:34 - com.ebay.pages.MainMenu.MainMenuLocators page initializing
+2019-08-09 11:55:11 INFO  BaseTest:60 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Completing Test
+2019-08-09 11:55:38 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 11:55:38 INFO  ExcelReader:34 -  Reading File: src\test\resources\TestData.xlsx
+2019-08-09 11:55:39 INFO  ExcelReader:38 - Reading dataFile completed 
+2019-08-09 11:55:39 INFO  BaseTest:37 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Initializing Suite
+2019-08-09 11:55:39 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 11:55:39 INFO  AndroidDriverUtil:44 - Android Environment is initialised with DesiredCapabilities 
+2019-08-09 11:55:39 INFO  AndroidDriverUtil:45 - [Platform_Name]: null [Platform_Version]: 9 [Device_name]: My MI [UDID]: 4aa88f4 [App_Package]: com.ebay.mobile [App_Activity]: com.ebay.mobile.activities.MainActivity [Appium_URL]: http://0.0.0.0:4723/wd/hub [DATA FILE]: TestData.xlsx 
+2019-08-09 11:55:39 ERROR AndroidDriverUtil:56 - Error while loading Ebay Application: 
+org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Device 4aa88f4 was not in the list of connected devices
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-N0QVKIP8TVK', ip: '169.254.215.167', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Device 4aa88f4 was not in the list of connected devices
+    at getResponseForW3CError (C:\Program Files\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:826:9)
+    at asyncHandler (C:\Program Files\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:447:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-N0QVKIP8TVK', ip: '169.254.215.167', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:84)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:94)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:95)
+	at com.ebay.common.utils.AndroidDriverUtil.startApp(AndroidDriverUtil.java:51)
+	at com.ebay.tests.BaseTest.initializeSuite(BaseTest.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	... 34 more
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Device 4aa88f4 was not in the list of connected devices
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-N0QVKIP8TVK', ip: '169.254.215.167', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Device 4aa88f4 was not in the list of connected devices
+    at getResponseForW3CError (C:\Program Files\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:826:9)
+    at asyncHandler (C:\Program Files\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:447:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	... 39 more
+2019-08-09 11:55:39 INFO  BaseTest:48 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Starting Test
+2019-08-09 11:55:39 DEBUG EbayBasePage:34 - com.ebay.pages.common.EbayBasePage page initializing
+2019-08-09 11:55:39 INFO  ExcelReader:49 - 2
+2019-08-09 11:55:39 INFO  ExcelReader:51 - 0
+2019-08-09 11:55:39 INFO  ExcelReader:60 - [Email]: p.reiin.saini@gmail.com [Password] test@2019 [UserId] presa4295 [SearchText] chocolate 
+2019-08-09 11:55:39 INFO  BaseTest:54 - EBAY: [verifyCheckout] Before running test method
+2019-08-09 11:55:39 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageActions page initializing
+2019-08-09 11:55:39 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageLocators page initializing
+2019-08-09 11:55:40 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-09 11:55:40 DEBUG EbayBasePage:34 - com.ebay.pages.MainMenu.MainMenuLocators page initializing
+2019-08-09 11:55:40 INFO  BaseTest:60 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Completing Test
+2019-08-09 12:05:33 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 12:05:33 INFO  ExcelReader:34 -  Reading File: src\test\resources\TestData.xlsx
+2019-08-09 12:05:33 INFO  ExcelReader:38 - Reading dataFile completed 
+2019-08-09 12:05:34 INFO  BaseTest:37 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Initializing Suite
+2019-08-09 12:05:34 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 12:05:34 INFO  AndroidDriverUtil:44 - Android Environment is initialised with DesiredCapabilities 
+2019-08-09 12:05:34 INFO  AndroidDriverUtil:45 - [Platform_Name]: null [Platform_Version]: 9 [Device_name]: My MI [UDID]: 4aa88f4 [App_Package]: com.ebay.mobile [App_Activity]: com.ebay.mobile.activities.MainActivity [Appium_URL]: http://0.0.0.0:4723/wd/hub [DATA FILE]: TestData.xlsx 
+2019-08-09 12:05:51 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 12:05:51 INFO  ExcelReader:34 -  Reading File: src\test\resources\TestData.xlsx
+2019-08-09 12:05:52 INFO  ExcelReader:38 - Reading dataFile completed 
+2019-08-09 12:05:52 INFO  BaseTest:37 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Initializing Suite
+2019-08-09 12:05:52 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 12:05:52 INFO  AndroidDriverUtil:44 - Android Environment is initialised with DesiredCapabilities 
+2019-08-09 12:05:52 INFO  AndroidDriverUtil:45 - [Platform_Name]: null [Platform_Version]: 9 [Device_name]: My MI [UDID]: 4aa88f4 [App_Package]: com.ebay.mobile [App_Activity]: com.ebay.mobile.activities.MainActivity [Appium_URL]: http://0.0.0.0:4723/wd/hub [DATA FILE]: TestData.xlsx 
+2019-08-09 12:05:53 ERROR AndroidDriverUtil:56 - Error while loading Ebay Application: 
+org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Device 4aa88f4 was not in the list of connected devices
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-N0QVKIP8TVK', ip: '169.254.215.167', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Device 4aa88f4 was not in the list of connected devices
+    at getResponseForW3CError (C:\Program Files\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:826:9)
+    at asyncHandler (C:\Program Files\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:447:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-N0QVKIP8TVK', ip: '169.254.215.167', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:84)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:94)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:95)
+	at com.ebay.common.utils.AndroidDriverUtil.startApp(AndroidDriverUtil.java:51)
+	at com.ebay.tests.BaseTest.initializeSuite(BaseTest.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	... 34 more
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Device 4aa88f4 was not in the list of connected devices
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-N0QVKIP8TVK', ip: '169.254.215.167', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Device 4aa88f4 was not in the list of connected devices
+    at getResponseForW3CError (C:\Program Files\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:826:9)
+    at asyncHandler (C:\Program Files\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:447:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	... 39 more
+2019-08-09 12:05:53 INFO  BaseTest:48 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Starting Test
+2019-08-09 12:05:53 DEBUG EbayBasePage:34 - com.ebay.pages.common.EbayBasePage page initializing
+2019-08-09 12:05:53 INFO  ExcelReader:49 - 2
+2019-08-09 12:05:53 INFO  ExcelReader:51 - 0
+2019-08-09 12:05:53 INFO  ExcelReader:60 - [Email]: p.reiin.saini@gmail.com [Password] test@2019 [UserId] presa4295 [SearchText] chocolate 
+2019-08-09 12:05:53 INFO  BaseTest:54 - EBAY: [verifyCheckout] Before running test method
+2019-08-09 12:05:53 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageAssertions page initializing
+2019-08-09 12:05:53 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-09 12:05:53 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageActions page initializing
+2019-08-09 12:05:53 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageLocators page initializing
+2019-08-09 12:05:53 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-09 12:05:53 DEBUG EbayBasePage:34 - com.ebay.pages.MainMenu.MainMenuLocators page initializing
+2019-08-09 12:05:53 INFO  BaseTest:60 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Completing Test
+2019-08-09 12:10:45 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 12:10:45 INFO  ExcelReader:34 -  Reading File: src\test\resources\TestData.xlsx
+2019-08-09 12:10:46 INFO  ExcelReader:38 - Reading dataFile completed 
+2019-08-09 12:10:46 INFO  BaseTest:37 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Initializing Suite
+2019-08-09 12:10:46 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 12:10:46 INFO  AndroidDriverUtil:44 - Android Environment is initialised with DesiredCapabilities 
+2019-08-09 12:10:46 INFO  AndroidDriverUtil:45 - [Platform_Name]: null [Platform_Version]: 9 [Device_name]: My MI [UDID]: 4aa88f4 [App_Package]: com.ebay.mobile [App_Activity]: com.ebay.mobile.activities.MainActivity [Appium_URL]: http://0.0.0.0:4723/wd/hub [DATA FILE]: TestData.xlsx 
+2019-08-09 12:10:54 INFO  AndroidDriverUtil:52 - EBAY Application Started 
+2019-08-09 12:10:54 INFO  BaseTest:48 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Starting Test
+2019-08-09 12:10:54 DEBUG EbayBasePage:34 - com.ebay.pages.common.EbayBasePage page initializing
+2019-08-09 12:10:54 INFO  ExcelReader:49 - 2
+2019-08-09 12:10:54 INFO  ExcelReader:51 - 0
+2019-08-09 12:10:54 INFO  ExcelReader:60 - [Email]: p.reiin.saini@gmail.com [Password] test@2019 [UserId] presa4295 [SearchText] chocolate 
+2019-08-09 12:10:54 INFO  BaseTest:54 - EBAY: [verifyCheckout] Before running test method
+2019-08-09 12:10:54 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageActions page initializing
+2019-08-09 12:10:54 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageLocators page initializing
+2019-08-09 12:10:54 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-09 12:10:54 DEBUG EbayBasePage:34 - com.ebay.pages.MainMenu.MainMenuLocators page initializing
+2019-08-09 12:10:54 INFO  LandingPageLocator:44 - landing Page->Clicked on main menu
+2019-08-09 12:10:55 INFO  MainMenuLocators:28 - Main Menu ->Clicked on Sign IN
+2019-08-09 12:11:02 INFO  SignInPageLocators:35 - SignINPage-> email entered p.reiin.saini@gmail.com
+2019-08-09 12:11:08 INFO  SignInPageLocators:40 - SignINPage-> password entered By.id: com.ebay.mobile:id/et_temp
+2019-08-09 12:11:09 INFO  SignInPageLocators:45 - SignINPage-> Clicked on SignIn Button 
+2019-08-09 12:11:09 INFO  SignInPageActions:47 - Sign In button Clicked
+2019-08-09 12:11:09 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 12:11:12 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 12:11:12 INFO  EbayBasePage:49 - true
+2019-08-09 12:11:13 INFO  LandingPageLocator:44 - landing Page->Clicked on main menu
+2019-08-09 12:11:14 INFO  MainMenuLocators:33 - Main Menu -> Signed In USer ---- presa4295
+2019-08-09 12:11:14 INFO  MainMenuLocators:39 - Main Menu -> Home -> Clicked on Home
+2019-08-09 12:11:14 INFO  SignInPageActions:61 - User is Directed to Home
+2019-08-09 12:11:14 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchPageLocators page initializing
+2019-08-09 12:11:14 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchResultPageActions page initializing
+2019-08-09 12:11:14 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchResultPageLocators page initializing
+2019-08-09 12:11:15 INFO  BaseTest:60 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Completing Test
+2019-08-09 12:11:16 INFO  BaseTest:66 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Ending Test
+2019-08-09 12:12:47 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 12:12:47 INFO  ExcelReader:34 -  Reading File: src\test\resources\TestData.xlsx
+2019-08-09 12:12:48 INFO  ExcelReader:38 - Reading dataFile completed 
+2019-08-09 12:12:48 INFO  BaseTest:37 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Initializing Suite
+2019-08-09 12:12:48 INFO  Environment:34 -  Reading android.property File completed 
+2019-08-09 12:12:48 INFO  AndroidDriverUtil:44 - Android Environment is initialised with DesiredCapabilities 
+2019-08-09 12:12:48 INFO  AndroidDriverUtil:45 - [Platform_Name]: null [Platform_Version]: 9 [Device_name]: My MI [UDID]: 4aa88f4 [App_Package]: com.ebay.mobile [App_Activity]: com.ebay.mobile.activities.MainActivity [Appium_URL]: http://0.0.0.0:4723/wd/hub [DATA FILE]: TestData.xlsx 
+2019-08-09 12:12:55 INFO  AndroidDriverUtil:52 - EBAY Application Started 
+2019-08-09 12:12:55 INFO  BaseTest:48 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Starting Test
+2019-08-09 12:12:55 DEBUG EbayBasePage:34 - com.ebay.pages.common.EbayBasePage page initializing
+2019-08-09 12:12:55 INFO  ExcelReader:49 - 2
+2019-08-09 12:12:55 INFO  ExcelReader:51 - 0
+2019-08-09 12:12:55 INFO  ExcelReader:60 - [Email]: p.reiin.saini@gmail.com [Password] test@2019 [UserId] presa4295 [SearchText] chocolate 
+2019-08-09 12:12:55 INFO  BaseTest:54 - EBAY: [verifyCheckout] Before running test method
+2019-08-09 12:12:55 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageActions page initializing
+2019-08-09 12:12:55 DEBUG EbayBasePage:34 - com.ebay.pages.SignIn.SignInPageLocators page initializing
+2019-08-09 12:12:55 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-09 12:12:55 DEBUG EbayBasePage:34 - com.ebay.pages.MainMenu.MainMenuLocators page initializing
+2019-08-09 12:12:56 INFO  LandingPageLocator:44 - landing Page->Clicked on main menu
+2019-08-09 12:12:57 INFO  MainMenuLocators:28 - Main Menu ->Clicked on Sign IN
+2019-08-09 12:13:03 INFO  SignInPageLocators:35 - SignINPage-> email entered p.reiin.saini@gmail.com
+2019-08-09 12:13:09 INFO  SignInPageLocators:40 - SignINPage-> password entered By.id: com.ebay.mobile:id/et_temp
+2019-08-09 12:13:10 INFO  SignInPageLocators:45 - SignINPage-> Clicked on SignIn Button 
+2019-08-09 12:13:10 INFO  SignInPageActions:47 - Sign In button Clicked
+2019-08-09 12:13:10 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 12:13:13 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 12:13:13 INFO  EbayBasePage:49 - true
+2019-08-09 12:13:14 INFO  LandingPageLocator:44 - landing Page->Clicked on main menu
+2019-08-09 12:13:16 INFO  MainMenuLocators:33 - Main Menu -> Signed In USer ---- presa4295
+2019-08-09 12:13:16 INFO  MainMenuLocators:39 - Main Menu -> Home -> Clicked on Home
+2019-08-09 12:13:16 INFO  SignInPageActions:61 - User is Directed to Home
+2019-08-09 12:13:16 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageAssertions page initializing
+2019-08-09 12:13:16 DEBUG EbayBasePage:34 - com.ebay.pages.LandingPage.LandingPageLocator page initializing
+2019-08-09 12:13:16 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchPageLocators page initializing
+2019-08-09 12:13:16 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchResultPageActions page initializing
+2019-08-09 12:13:16 DEBUG EbayBasePage:34 - com.ebay.pages.Search.SearchResultPageLocators page initializing
+2019-08-09 12:13:17 INFO  LandingPageLocator:63 - Search Text Box Clicked
+2019-08-09 12:13:23 INFO  ItemDetailPageLocators:29 - Search Page-> Entered Search text is chocolate
+2019-08-09 12:13:24 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 12:13:26 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 12:13:26 INFO  EbayBasePage:49 - true
+2019-08-09 12:13:26 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 12:13:27 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 12:13:27 INFO  EbayBasePage:49 - true
+2019-08-09 12:13:27 INFO  SearchResultPageLocators:47 -  Search page is Loaded with Result count5,276 Results
+2019-08-09 12:13:27 INFO  SearchResultPageLocators:33 - Search Result Page is loaded
+2019-08-09 12:13:27 DEBUG EbayBasePage:34 - com.ebay.pages.itemDetailPage.ItemDetailsPageAssertions page initializing
+2019-08-09 12:13:27 DEBUG EbayBasePage:34 - com.ebay.pages.itemDetailPage.ItemDetailPageLocators page initializing
+2019-08-09 12:13:27 DEBUG EbayBasePage:34 - com.ebay.pages.ItemQuantityPage.ItemQuantityPageAssertions page initializing
+2019-08-09 12:13:27 DEBUG EbayBasePage:34 - com.ebay.pages.ItemQuantityPage.ItemQuantityPageLocator page initializing
+2019-08-09 12:13:27 DEBUG EbayBasePage:34 - com.ebay.pages.Checkout.CheckoutPageAssertions page initializing
+2019-08-09 12:13:27 DEBUG EbayBasePage:34 - com.ebay.pages.Checkout.CheckoutPageLocators page initializing
+2019-08-09 12:13:27 INFO  SearchResultPageLocators:59 - Second product from the list is Selected 
+2019-08-09 12:13:27 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 12:13:31 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 12:13:31 INFO  EbayBasePage:49 - true
+2019-08-09 12:13:31 INFO  ItemDetailPageLocators:49 - Buy Now Button is present true
+2019-08-09 12:13:31 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 12:13:31 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 12:13:33 INFO  EbayBasePage:49 - true
+2019-08-09 12:13:33 INFO  ItemDetailPageLocators:49 - Buy Now Button is present true
+2019-08-09 12:13:33 INFO  ItemDetailsPageAssertions:28 - ItemDetailsPage is loaded Successfully
+2019-08-09 12:13:33 INFO  ItemDetailPageLocators:32 - ItemName is set to  M&M's Peanut Chocolate Party Size Bucket 575g Lollies
+2019-08-09 12:13:34 INFO  ItemDetailPageLocators:39 - ItemPrice is set to  AU $10.40
+2019-08-09 12:13:34 INFO  ItemDetailsPageAssertions:42 - Selected Product Details are [Item Name]: M&M's Peanut Chocolate Party Size Bucket 575g Lollies [Item Price]: AU $10.40 
+2019-08-09 12:13:34 INFO  ItemDetailsPageAssertions:43 - Selected Product Name are M&M's Peanut Chocolate Party Size Bucket 575g Lollies
+2019-08-09 12:13:34 INFO  ItemDetailsPageAssertions:44 - Selected Product Price are AU $10.40
+2019-08-09 12:13:34 INFO  ItemDetailPageLocators:56 - Clicked on Buy Now Button true
+2019-08-09 12:13:34 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 12:13:35 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 12:13:35 INFO  EbayBasePage:49 - true
+2019-08-09 12:13:35 INFO  ItemQuantityPageLocator:26 - item Enter Quantity page is Loaded and Page Titile isEnter quantity
+2019-08-09 12:13:35 INFO  ItemQuantityPageAssertions:25 - Enter Quantity page is loaded successgully 
+2019-08-09 12:13:36 INFO  ItemQuantityPageLocator:32 - Clicked on Review Button 
+2019-08-09 12:13:36 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 12:13:36 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 12:13:36 INFO  EbayBasePage:49 - true
+2019-08-09 12:13:36 INFO  CheckoutPageLocators:44 - Checkout Page is Loaded true
+2019-08-09 12:13:37 INFO  EbayBasePage:45 - wait initiated
+2019-08-09 12:13:37 INFO  EbayBasePage:47 -  Element Is Displayed --
+2019-08-09 12:13:37 INFO  EbayBasePage:49 - true
+2019-08-09 12:13:37 INFO  CheckoutPageLocators:44 - Checkout Page is Loaded true
+2019-08-09 12:13:37 INFO  CheckoutPageAssertions:26 - Checkout page is Loaded Successfully
+2019-08-09 12:13:43 INFO  CheckoutPageLocators:31 - ItemName is set to  M&M's Peanut Chocolate Party Size Bucket 575g Lollies
+2019-08-09 12:13:44 INFO  CheckoutPageLocators:38 - ItemPrice is set to  AU $10.40
+2019-08-09 12:13:44 INFO  CheckoutPageAssertions:35 - Selected Product Details are [Item Name]: M&M's Peanut Chocolate Party Size Bucket 575g Lollies [Item Price]: AU $10.40 
+2019-08-09 12:13:44 INFO  CheckoutPageAssertions:36 - Selected Product Name are M&M's Peanut Chocolate Party Size Bucket 575g Lollies
+2019-08-09 12:13:44 INFO  CheckoutPageAssertions:37 - Selected Product Price are AU $10.40
+2019-08-09 12:13:44 INFO  VerifyLogin_Search_Checkout_Tests:71 - Product details in Checkout Page is same as available in Item-Detail-Page 
+2019-08-09 12:13:44 INFO  BaseTest:60 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Completing Test
+2019-08-09 12:13:45 INFO  BaseTest:66 - EBAY: [com.ebay.tests.VerifyLogin_Search_Checkout_Tests] Ending Test
